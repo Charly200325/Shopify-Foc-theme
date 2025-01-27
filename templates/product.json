@@ -12,13 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "variant_picker": {
-          "type": "variant_picker",
+        "liquid_A6N9EV": {
+          "type": "liquid",
           "settings": {
-            "hide_sold_out_variants": false,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
+            "liquid": "<div class=\"product-badges\">\n  <div class=\"badge-item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/patte.png?v=1737984659\" alt=\"Crayon à lèvres\" class=\"badge-image\">\n    <p class=\"badge-text\">Stimule les 5 sens de votre chat pour des heures de jeu captivant.</p>\n  </div>\n  <div class=\"badge-item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/jeu-de-flechettes.png?v=1737984694\" alt=\"Résultats dès 2 semaines\" class=\"badge-image\">\n    <p class=\"badge-text\">Réduit l'anxiété et l'ennui en imitant les comportements naturels des chats.</p>\n  </div>\n  <div class=\"badge-item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/puzzle.png?v=1737984658\" alt=\"Sans chirurgie, sans douleur\" class=\"badge-image\">\n    <p class=\"badge-text\"> Offre une expérience unique et évolutive grâce à sa conception modulable.</p>\n  </div>\n</div>\n  <div class=\"badge-item\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/force.png?v=1737984659\" alt=\"Sans chirurgie, sans douleur\" class=\"badge-image\">\n    <p class=\"badge-text\"> Fabriqué avec un matériel ultra résistant et écologique, il est conçu pour supporter les griffes et les morsures</p>\n  </div>\n  \n  </div>\n</div>\n\n<style>\n  .product-badges {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    gap: 10px; /* Espacement réduit entre les badges */\n    margin-bottom: 20px; /* Ajustez selon l'espacement souhaité */\n  }\n\n  .badge-item {\n    display: flex;\n    align-items: center; /* Assure un alignement vertical entre l'image et le texte */\n    gap: 8px; /* Réduit l'écart entre l'image et le texte */\n  }\n\n  .badge-image {\n    width: 30px; /* Ajustez la taille de l'image comme souhaité */\n    height: 30px;\n    object-fit: cover;\n  }\n\n  .badge-text {\n    font-size: 14px;\n    color: #333; /* Vous pouvez personnaliser la couleur du texte ici */\n    margin: 0; /* Enlève l'espacement autour du texte */\n    text-align: left; /* S'assure que le texte est aligné à gauche */\n  }\n</style>"
           }
         },
         "buy_buttons": {
@@ -34,7 +31,7 @@
         }
       },
       "block_order": [
-        "variant_picker",
+        "liquid_A6N9EV",
         "buy_buttons"
       ],
       "settings": {
@@ -55,15 +52,6 @@
     },
     "product-content": {
       "type": "product-content",
-      "blocks": {
-        "description": {
-          "type": "description",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "description"
-      ],
       "settings": {}
     },
     "product-recommendations": {
