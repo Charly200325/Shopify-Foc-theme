@@ -28,11 +28,33 @@
             "buy_now_button_background": "#f7aea6",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
+        },
+        "liquid_aF4CFG": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"payment-badges\">\n  <h4 class=\"payment-title\">Moyens de paiement</h4>\n  <div class=\"payment-icons\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/mastercard.png?v=1737923482\" alt=\"MasterCard\" class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/visa-logo-0.png?v=1737923482\" alt=\"Visa\" class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/PYPL-3570673e.png?v=1737923482\" alt=\"PayPal\" class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/ShopPay.png?v=1737923481\" alt=\"Shop Pay\" class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/png-clipart-google-pay-send-android-computer-icons-android-text-trademark.png?v=1737923482\" alt=\"Google Pay\" class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0924/0110/7208/files/png-clipart-apple-pay-mobile-payment-apple-wallet-apple-text-service-thumbnail.png?v=1737923482\" alt=\"Apple Pay\" class=\"payment-icon\">\n  </div>\n</div>\n\n<style>\n.payment-badges {\n  text-align: center;\n  margin-top: 20px;\n}\n\n.payment-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n.payment-icons {\n  display: flex;\n  justify-content: center;\n  gap: 15px;\n}\n\n.payment-icon {\n  height: 40px;\n  max-width: 60px;\n  object-fit: contain;\n}\n</style>"
+          }
+        },
+        "liquid_ywPg9B": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "liquid_iyVV6R": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product__accordion accordion quick-add-hidden\">\n  <!-- Section Garantie -->\n  <details>\n    <summary role=\"button\" aria-expanded=\"false\">\n      <div class=\"summary__title\">\n        <svg class=\"icon icon-accordion\" aria-hidden=\"true\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 20 20\">\n          <path d=\"M11.571 1.05882C11.571 0.750194 11.8198 0.5 12.1266 0.5H13.4572C17.0692 0.5 20 3.45304 20 7.08924C20 10.7255 17.0692 13.6785 13.4572 13.6785L1.89992 13.7105L1.30855 13.1197L1.89992 12.5484L13.4572 12.5608C16.4541 12.5608 18.8889 10.1096 18.8889 7.08924C18.8889 4.06891 16.4541 1.61765 13.4572 1.61765H12.1266C11.8198 1.61765 11.571 1.36745 11.571 1.05882Z\"></path>\n          <path d=\"M6.00311 7.00677C6.22317 6.7917 6.57489 6.79679 6.78871 7.01815C7.00252 7.2395 6.99746 7.59329 6.7774 7.80836L6.00311 7.00677ZM1.30855 13.1197L6.73968 18.5463C6.9565 18.7647 6.95627 19.1185 6.73917 19.3366C6.52207 19.5547 6.17031 19.5544 5.9535 19.3361L0.162462 13.5034C0.0572388 13.3974 -0.00128425 13.2533 2.13868e-05 13.1036C0.00132703 12.9538 0.0623521 12.8108 0.169407 12.7067C0.3269 12.5535 1.78474 11.1291 3.20439 9.74186L6.00311 7.00677L6.7774 7.80836L3.97862 10.5435C2.95441 11.5444 1.8705 12.5709 1.30855 13.1197Z\"></path>\n        </svg>\n        <span class=\"accordion__title\">GARANTIE PENDANT 60 JOURS</span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 1024 1024\" class=\"icon icon-caret\" version=\"1.1\">\n          <path d=\"M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z\" fill=\"currentColor\"></path>\n        </svg>\n      </div>\n    </summary>\n    <div class=\"accordion__content rte\">\n      <p>Notre garantie dure 60 jours. Si vous n'êtes pas entièrement satisfait, contactez-nous pour un remboursement complet. Si vous souhaitez nous retourner le produit, nous prenons en charge l’intégralité du retour !</p>\n    </div>\n  </details>\n\n  <!-- Section Expédition -->\n  <details>\n    <summary role=\"button\" aria-expanded=\"false\">\n      <div class=\"summary__title\">\n        <svg class=\"icon icon-accordion\" aria-hidden=\"true\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 20 20\">\n          <path d=\"M11.571 1.05882C11.571 0.750194 11.8198 0.5 12.1266 0.5H13.4572C17.0692 0.5 20 3.45304 20 7.08924C20 10.7255 17.0692 13.6785 13.4572 13.6785L1.89992 13.7105L1.30855 13.1197L1.89992 12.5484L13.4572 12.5608C16.4541 12.5608 18.8889 10.1096 18.8889 7.08924C18.8889 4.06891 16.4541 1.61765 13.4572 1.61765H12.1266C11.8198 1.61765 11.571 1.36745 11.571 1.05882Z\"></path>\n        </svg>\n        <span class=\"accordion__title\">EXPÉDITION</span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 1024 1024\" class=\"icon icon-caret\" version=\"1.1\">\n          <path d=\"M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z\" fill=\"currentColor\"></path>\n        </svg>\n      </div>\n    </summary>\n    <div class=\"accordion__content rte\">\n      <p>Nous livrons partout dans le monde. Les délais d'expédition varient selon votre localisation. Consultez notre page Expédition pour plus d'informations.</p>\n    </div>\n  </details>\n\n  <!-- Section Paiement -->\n  <details>\n    <summary role=\"button\" aria-expanded=\"false\">\n      <div class=\"summary__title\">\n        <svg class=\"icon icon-accordion\" aria-hidden=\"true\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 20 20\">\n          <path d=\"M11.571 1.05882C11.571 0.750194 11.8198 0.5 12.1266 0.5H13.4572C17.0692 0.5 20 3.45304 20 7.08924C20 10.7255 17.0692 13.6785 13.4572 13.6785L1.89992 13.7105L1.30855 13.1197L1.89992 12.5484L13.4572 12.5608C16.4541 12.5608 18.8889 10.1096 18.8889 7.08924C18.8889 4.06891 16.4541 1.61765 13.4572 1.61765H12.1266C11.8198 1.61765 11.571 1.36745 11.571 1.05882Z\"></path>\n        </svg>\n        <span class=\"accordion__title\">PAIEMENT</span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 1024 1024\" class=\"icon icon-caret\" version=\"1.1\">\n          <path d=\"M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z\" fill=\"currentColor\"></path>\n        </svg>\n      </div>\n    </summary>\n    <div class=\"accordion__content rte\">\n      <p>Nous acceptons toutes les principales méthodes de paiement : cartes de crédit, PayPal, et plus encore. Vos données sont protégées avec les dernières technologies de cryptage.</p>\n    </div>\n  </details>\n</div>"
+          }
         }
       },
       "block_order": [
         "liquid_A6N9EV",
-        "buy_buttons"
+        "buy_buttons",
+        "liquid_aF4CFG",
+        "liquid_ywPg9B",
+        "liquid_iyVV6R"
       ],
       "settings": {
         "show_vendor": false,
@@ -54,20 +76,41 @@
       "type": "product-content",
       "settings": {}
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "image_with_text_A6gdnT": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_AYPHxJ": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_AYPHxJ"
+      ],
       "settings": {
-        "subheading": "",
-        "title": "You may also like",
-        "recommendations_count": 4,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
     "main",
     "product-content",
-    "product-recommendations"
+    "image_with_text_A6gdnT"
   ]
 }
