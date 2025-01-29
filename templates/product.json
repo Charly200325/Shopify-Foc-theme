@@ -85,7 +85,7 @@
         "wave_side": "0",
         "animation": false,
         "animation_duration": 5,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "wave_color": "#fdf1e4",
         "margin_top": -100,
         "margin_bottom": -16,
@@ -100,8 +100,8 @@
     "rich_text_btdzw7": {
       "type": "rich-text",
       "settings": {
-        "subheading": "Le rouleau anti-poils réutilisable",
-        "title": "",
+        "subheading": "Meowtix",
+        "title": "Le rouleau anti-poils réutilisable",
         "content": "<p><strong>un geste éco-responsable, une économie d'argent et une solution parfaite pour garder vos vêtements toujours propre.</strong></p>",
         "button_text": "",
         "button_link": "",
@@ -124,7 +124,7 @@
         "wave_side": "180",
         "animation": false,
         "animation_duration": 5,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "wave_color": "#fdf1e4",
         "margin_top": -48,
         "margin_bottom": 0,
