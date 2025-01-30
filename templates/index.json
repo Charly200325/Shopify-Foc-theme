@@ -260,7 +260,7 @@
       "type": "ss-wave-2",
       "settings": {
         "wave_height": 66,
-        "wave_height_mobile": 52,
+        "wave_height_mobile": 30,
         "wave_animation": true,
         "wave_rotate": false,
         "wave_color": "#cfe5d4",
@@ -338,7 +338,7 @@
       "type": "ss-wave-2",
       "settings": {
         "wave_height": 66,
-        "wave_height_mobile": 52,
+        "wave_height_mobile": 30,
         "wave_animation": true,
         "wave_rotate": true,
         "wave_color": "#cfe5d4",
