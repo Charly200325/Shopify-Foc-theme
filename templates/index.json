@@ -388,6 +388,9 @@
     },
     "avisshalla_pGqMbg": {
       "type": "avisshalla",
+      "custom_css": [
+        ".reviews {background-color: #D0E5D5; /* Exemple avec un bleu clair */ padding: 40px 0; text-align: center; position: relative;}"
+      ],
       "settings": {}
     }
   },
