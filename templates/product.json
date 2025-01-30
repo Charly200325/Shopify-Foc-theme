@@ -269,7 +269,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "show_arrows": false,
+        "show_arrows": true,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
