@@ -105,7 +105,7 @@
     "featured_product_3k8thq": {
       "type": "featured-product",
       "blocks": {
-        "buy_buttons_3HXJKJ": {
+        "buy_buttons_Rjpd94": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
@@ -118,7 +118,7 @@
         }
       },
       "block_order": [
-        "buy_buttons_3HXJKJ"
+        "buy_buttons_Rjpd94"
       ],
       "settings": {
         "product": "washable-lint-remover-new-multifunctional-portable-roller-for-clothes-pet-hair-remover-dust-removal-eliminator-brush-hair-sticky-106292150610-lc3b6",
