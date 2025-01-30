@@ -140,42 +140,13 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "subheading": "Your title",
-        "title": "Collection",
-        "content": "",
-        "products_count": 8,
-        "products_per_row": 4,
-        "stack_products": true,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
         "item-1": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ezgif-3-c6495e3dc6.webp",
             "tab_label": "Text 1",
             "subheading": "Subheading",
             "title": "Image with text",
@@ -183,22 +154,10 @@
             "button_text": "",
             "button_link": ""
           }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Text 2",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2"
+        "item-1"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -466,7 +425,6 @@
     "rich_text_YVrH7f",
     "ss_waves_9jMpQx",
     "featured_product_3k8thq",
-    "featured-collections",
     "image-with-text",
     "shop-the-look",
     "blog-posts",
