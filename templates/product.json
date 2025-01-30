@@ -289,15 +289,6 @@
     "otsb_faq_1_kADVtm": {
       "type": "otsb-faq-1",
       "blocks": {
-        "frequently_asked_question_U6Gtkk": {
-          "type": "frequently_asked_question",
-          "settings": {
-            "icon": "none",
-            "custom_icon": "",
-            "heading": "Puis-je l'utiliser sur tous les types de tissus (canapés, vêtements, tapis) ?",
-            "row_content": "<p>Absolument ! Le rouleau Meowtix™ fonctionne sur une large variété de surfaces, qu'il s'agisse de tissus délicats ou de matériaux plus épais comme les tapis. Il est doux mais puissant, ce qui le rend polyvalent pour tous vos besoins de nettoyage.</p>"
-          }
-        },
         "frequently_asked_question_jVALmt": {
           "type": "frequently_asked_question",
           "settings": {
@@ -305,6 +296,15 @@
             "custom_icon": "",
             "heading": "Est-ce que le rouleau enlève vraiment tous les poils de mon canapé et de mes vêtements ?",
             "row_content": "<p>Oui ! Grâce à ses fibres spéciales et son design efficace, ce nettoyeur capte et élimine les poils d'animaux en quelques gestes simples. Il est conçu pour être performant même sur les tissus les plus difficiles.</p>"
+          }
+        },
+        "frequently_asked_question_U6Gtkk": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "",
+            "heading": "Puis-je l'utiliser sur tous les types de tissus (canapés, vêtements, tapis) ?",
+            "row_content": "<p>Absolument ! Le rouleau Meowtix™ fonctionne sur une large variété de surfaces, qu'il s'agisse de tissus délicats ou de matériaux plus épais comme les tapis. Il est doux mais puissant, ce qui le rend polyvalent pour tous vos besoins de nettoyage.</p>"
           }
         },
         "frequently_asked_question_M3fG6F": {
@@ -363,8 +363,8 @@
         }
       },
       "block_order": [
-        "frequently_asked_question_U6Gtkk",
         "frequently_asked_question_jVALmt",
+        "frequently_asked_question_U6Gtkk",
         "frequently_asked_question_M3fG6F",
         "frequently_asked_question_CBf7mC",
         "frequently_asked_question_ry8Tjq",
