@@ -25,16 +25,15 @@
 </div>
 
 <script>
-<script>
   document.addEventListener("DOMContentLoaded", function () {
     const slider = document.querySelector(".reviews__slider");
     let scrollAmount = 0;
 
     function autoScroll() {
-      if (slider.scrollWidth - slider.clientWidth <= scrollAmount) {
+      if (slider.scrollWidth - slider.clientWidth === scrollAmount) {
         scrollAmount = 0;
       } else {
-        scrollAmount += slider.clientWidth;
+        scrollAmount += 350;
       }
       slider.scrollTo({
         left: scrollAmount,
@@ -43,60 +42,13 @@
     }
 
     setInterval(autoScroll, 3000);
-
-    // Variables pour le swipe
-    let isDown = false;
-    let startX;
-    let scrollLeft;
-
-    slider.addEventListener('mousedown', (e) => {
-      isDown = true;
-      startX = e.pageX - slider.offsetLeft;
-      scrollLeft = slider.scrollLeft;
-    });
-
-    slider.addEventListener('mouseleave', () => {
-      isDown = false;
-    });
-
-    slider.addEventListener('mouseup', () => {
-      isDown = false;
-    });
-
-    slider.addEventListener('mousemove', (e) => {
-      if (!isDown) return;
-      e.preventDefault();
-      const x = e.pageX - slider.offsetLeft;
-      const walk = (x - startX) * 2; // Ajuste la vitesse de défilement
-      slider.scrollLeft = scrollLeft - walk;
-    });
-
-    // Swipe sur mobile
-    slider.addEventListener('touchstart', (e) => {
-      isDown = true;
-      startX = e.touches[0].pageX - slider.offsetLeft;
-      scrollLeft = slider.scrollLeft;
-    });
-
-    slider.addEventListener('touchend', () => {
-      isDown = false;
-    });
-
-    slider.addEventListener('touchmove', (e) => {
-      if (!isDown) return;
-      e.preventDefault();
-      const x = e.touches[0].pageX - slider.offsetLeft;
-      const walk = (x - startX) * 2; // Ajuste la vitesse de défilement
-      slider.scrollLeft = scrollLeft - walk;
-    });
   });
-</script>
 </script>
 
 <style>
 <style>
 .reviews {
-  background-color: #fde4e6;
+  background-color: ##D0E5D5;
   padding: 40px 0;
   text-align: center;
   position: relative;
