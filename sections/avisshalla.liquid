@@ -46,6 +46,7 @@
 </script>
 
 <style>
+<style>
 .reviews {
   background-color: #fde4e6;
   padding: 40px 0;
@@ -72,6 +73,7 @@ h2 {
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 10px;
+  scroll-behavior: smooth;
 }
 
 .reviews__slider::-webkit-scrollbar {
@@ -83,42 +85,118 @@ h2 {
   border-radius: 10px;
   padding: 15px;
   margin: 0 10px;
-  flex: 0 0 350px;
+  flex: 0 0 23%;
   height: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   scroll-snap-align: center;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .review-stars {
   display: flex;
+  gap: 2px;
   margin-bottom: 5px;
 }
 
 .icon-star {
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
 }
 
 .review-name {
   font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.review-text {
   font-size: 14px;
 }
 
-@media (max-width: 768px) {
-  .reviews__slider {
-    padding: 10px;
-  }
+.review-text {
+  font-size: 13px;
+}
 
+@media (max-width: 768px) {
   .review-card {
-    flex: 0 0 100%;
+    flex: 0 0 80%; /* Ajuste pour les petites tailles d'écran */
     margin: 0 5px;
   }
 }
+
+@media (min-width: 769px) {
+  .review-card {
+    flex: 0 0 22%; /* Pour afficher 4 avis sur une ligne */
+    margin: 0 10px;
+  }
+}
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.querySelector(".reviews__slider");
+    let scrollAmount = 0;
+
+    function autoScroll() {
+      if (slider.scrollWidth - slider.clientWidth <= scrollAmount) {
+        scrollAmount = 0;
+      } else {
+        scrollAmount += slider.clientWidth;
+      }
+      slider.scrollTo({
+        left: scrollAmount,
+        behavior: "smooth"
+      });
+    }
+
+    setInterval(autoScroll, 3000);
+
+    // Gestion du swipe sur mobile et bureau
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    slider.addEventListener('mousedown', (e) => {
+      isDown = true;
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
+
+    slider.addEventListener('mouseleave', () => {
+      isDown = false;
+    });
+
+    slider.addEventListener('mouseup', () => {
+      isDown = false;
+    });
+
+    slider.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; // Vitesse de déplacement
+      slider.scrollLeft = scrollLeft - walk;
+    });
+
+    // Swipe sur mobile
+    slider.addEventListener('touchstart', (e) => {
+      isDown = true;
+      startX = e.touches[0].pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
+
+    slider.addEventListener('touchend', () => {
+      isDown = false;
+    });
+
+    slider.addEventListener('touchmove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.touches[0].pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3;
+      slider.scrollLeft = scrollLeft - walk;
+    });
+  });
+</script>
+
 </style>
 
 
