@@ -388,8 +388,48 @@
     },
     "avisshalla_pGqMbg": {
       "type": "avisshalla",
+      "blocks": {
+        "review_DyTfgX": {
+          "type": "review",
+          "settings": {
+            "name": "Julie V.",
+            "review_text": "Le crayon 4-en-1 de Shally est devenu mon indispensable beauté.",
+            "rating": 5
+          }
+        },
+        "review_iD3qWT": {
+          "type": "review",
+          "settings": {
+            "name": "Julie V.",
+            "review_text": "Le crayon 4-en-1 de Shally est devenu mon indispensable beauté.",
+            "rating": 5
+          }
+        },
+        "review_mBWWN8": {
+          "type": "review",
+          "settings": {
+            "name": "Julie V.",
+            "review_text": "Le crayon 4-en-1 de Shally est devenu mon indispensable beauté.",
+            "rating": 5
+          }
+        },
+        "review_TKNC48": {
+          "type": "review",
+          "settings": {
+            "name": "Julie V.",
+            "review_text": "Le crayon 4-en-1 de Shally est devenu mon indispensable beauté.",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "review_DyTfgX",
+        "review_iD3qWT",
+        "review_mBWWN8",
+        "review_TKNC48"
+      ],
       "custom_css": [
-        ".reviews {background-color: #D0E5D5; /* Exemple avec un bleu clair */ padding: 40px 0; text-align: center; position: relative;}"
+        ".reviews {background-color: #d0e5d5; /* Exemple avec un bleu clair */ padding: 40px 0; text-align: center; position: relative;}"
       ],
       "settings": {}
     }
@@ -406,7 +446,7 @@
     "slideshow_3Y7Leh",
     "custom_html_yAMyWz",
     "custom_html_TzhjPa",
-    "otsb_faq_1_Ct8tF8",
-    "avisshalla_pGqMbg"
+    "avisshalla_pGqMbg",
+    "otsb_faq_1_Ct8tF8"
   ]
 }
