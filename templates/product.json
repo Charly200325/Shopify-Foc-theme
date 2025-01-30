@@ -274,16 +274,49 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "custom_html_xGV3iV": {
-      "type": "custom-html",
+    "avis_WE4qKr": {
+      "type": "avis",
       "settings": {
-        "subheading": "Your subheading",
-        "title": "Your title",
-        "html": "<p style=\"text-align: center\">Write or copy/paste HTML code</p>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "heading1": "Our customers tell it better than we do!",
+        "richtext1": "<p>Great results!</p>",
+        "richtext2": "<p>My skin is clearer than it's ever been, and I'm so happy with the results.</p>",
+        "richtext3": "<p>Sarah J.</p>",
+        "richtext4": "<p>This is perfect</p>",
+        "richtext5": "<p>It has given me the confidence to go out without worrying about how my skin looks. I'm so grateful for this product.</p>",
+        "richtext6": "<p>Emily R.</p>",
+        "richtext7": "<p>Highly recommend</p>",
+        "richtext8": "<p>My skin is less oily, and my pores are less visible. I'm excited to see how my skin continues to improve.</p>",
+        "richtext9": "<p>Mishael S.</p>",
+        "richtext10": "<p>Great results!</p>",
+        "richtext11": "<p>My skin is clearer than it's ever been, and I'm so happy with the results.</p>",
+        "richtext12": "<p>Sarah J.</p>",
+        "richtext13": "<p>This is perfect</p>",
+        "richtext14": "<p>It has given me the confidence to go out without worrying about how my skin looks. I'm so grateful for this product.</p>",
+        "richtext15": "<p>Emily R.</p>",
+        "richtext16": "<p>Highly recommend</p>",
+        "richtext17": "<p>My skin is less oily, and my pores are less visible. I'm excited to see how my skin continues to improve.</p>",
+        "richtext18": "<p>Mishael S.</p>",
+        "richtext19": "<p>Great results!</p>",
+        "richtext20": "<p>My skin is clearer than it's ever been, and I'm so happy with the results.</p>",
+        "richtext21": "<p>Sarah J.</p>",
+        "richtext22": "<p>This is perfect</p>",
+        "richtext23": "<p>It has given me the confidence to go out without worrying about how my skin looks. I'm so grateful for this product.</p>",
+        "richtext24": "<p>Emily R.</p>",
+        "richtext25": "<p>Highly recommend</p>",
+        "richtext26": "<p>My skin is less oily, and my pores are less visible. I'm excited to see how my skin continues to improve.</p>",
+        "richtext27": "<p>Mishael S.</p>",
+        "richtext28": "<p>Great results!</p>",
+        "richtext29": "<p>My skin is clearer than it's ever been, and I'm so happy with the results.</p>",
+        "richtext30": "<p>Sarah J.</p>",
+        "richtext31": "<p>This is perfect</p>",
+        "richtext32": "<p>It has given me the confidence to go out without worrying about how my skin looks. I'm so grateful for this product.</p>",
+        "richtext33": "<p>Emily R.</p>",
+        "richtext34": "<p>Highly recommend</p>",
+        "richtext35": "<p>My skin is less oily, and my pores are less visible. I'm excited to see how my skin continues to improve.</p>",
+        "richtext36": "<p>Mishael S.</p>",
+        "richtext37": "<p>Great results!</p>",
+        "richtext38": "<p>My skin is clearer than it's ever been, and I'm so happy with the results.</p>",
+        "richtext39": "<p>Sarah J.</p>"
       }
     }
   },
@@ -299,6 +332,6 @@
     "custom_html_JN4L7M",
     "custom_html_AH9jLC",
     "gallery_Gr6UFf",
-    "custom_html_xGV3iV"
+    "avis_WE4qKr"
   ]
 }
