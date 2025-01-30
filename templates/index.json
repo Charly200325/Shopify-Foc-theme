@@ -267,6 +267,124 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "otsb_faq_2_FP33Fn": {
+      "type": "otsb-faq-2",
+      "blocks": {
+        "frequently_asked_question_8T3RpW": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "question-mark",
+            "custom_icon": "",
+            "heading": "Est-ce que le rouleau enlève vraiment tous les poils de mon canapé et de mes vêtements ?",
+            "row_content": "<p>Oui ! Grâce à ses fibres spéciales et son design efficace, ce nettoyeur capte et élimine les poils d'animaux en quelques gestes simples. Il est conçu pour être performant même sur les tissus les plus difficiles.</p>"
+          }
+        },
+        "frequently_asked_question_xik6yj": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "question-mark",
+            "custom_icon": "",
+            "heading": "Puis-je l'utiliser sur tous les types de tissus (canapés, vêtements, tapis) ?",
+            "row_content": "<p>Absolument ! Le rouleau Meowtix™ fonctionne sur une large variété de surfaces, qu'il s'agisse de tissus délicats ou de matériaux plus épais comme les tapis. Il est doux mais puissant, ce qui le rend polyvalent pour tous vos besoins de nettoyage.</p>"
+          }
+        },
+        "frequently_asked_question_F7w6Ww": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "question-mark",
+            "custom_icon": "",
+            "heading": "Le rouleau est-il facile à transporter ?",
+            "row_content": "<p>Absolument ! Sa taille compacte le rend facile à glisser dans votre sac pour des retouches à tout moment.</p>"
+          }
+        },
+        "frequently_asked_question_q48KVP": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "question-mark",
+            "custom_icon": "",
+            "heading": "Est-ce facile à nettoyer ?",
+            "row_content": "<p>Oui, il suffit de le rincer sous l'eau pour enlever les poils accumulés. Il est conçu pour être utilisé encore et encore sans perdre de son efficacité.</p>"
+          }
+        },
+        "frequently_asked_question_XmiqCg": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "question-mark",
+            "custom_icon": "",
+            "heading": "Pourquoi devrais-je arrêter d'utiliser des rouleaux adhésifs jetables pour enlever les poils de mon animal ?",
+            "row_content": "<p>Les rouleaux jetables sont pratiques, mais ils sont non seulement mauvais pour l'environnement, mais aussi coûteux à long terme. Le rouleau réutilisable est une solution durable et économique, qui permet de dire adieu à l'achat constant de rouleaux jetables et de contribuer à la préservation de la planète.</p>"
+          }
+        },
+        "frequently_asked_question_mnWhwY": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "question-mark",
+            "custom_icon": "",
+            "heading": "Comment est-ce que ce produit est plus écologique que les rouleaux jetables ?",
+            "row_content": "<p>Le rouleau Meowtix™ ne nécessite aucun produit chimique ou consommable, ce qui le rend beaucoup plus respectueux de l'environnement. Vous évitez ainsi des déchets inutiles tout en profitant d'une efficacité durable.</p>"
+          }
+        },
+        "frequently_asked_question_P9WmU4": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "question-mark",
+            "custom_icon": "",
+            "heading": "Est-ce que le rouleau est vraiment économique sur le long terme ?",
+            "row_content": "<p>Oui, en utilisant le rouleau Meowtix™, vous réduisez vos dépenses en rouleaux jetables et autres produits de nettoyage. En plus, sa durabilité et son efficacité vous feront économiser de l'argent au fil du temps.</p>"
+          }
+        },
+        "frequently_asked_question_z7FAUt": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "question-mark",
+            "custom_icon": "",
+            "heading": "Proposez-vous des retours ou des échanges ?",
+            "row_content": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "frequently_asked_question_8T3RpW",
+        "frequently_asked_question_xik6yj",
+        "frequently_asked_question_F7w6Ww",
+        "frequently_asked_question_q48KVP",
+        "frequently_asked_question_XmiqCg",
+        "frequently_asked_question_mnWhwY",
+        "frequently_asked_question_P9WmU4",
+        "frequently_asked_question_z7FAUt"
+      ],
+      "settings": {
+        "heading": "QUESTION FRÉQUENTES",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "row_background": false,
+        "collapsible": true,
+        "show_view_all": false,
+        "view_all_position": "top",
+        "button_link": "",
+        "open_new_window": false,
+        "background_color_light": "rgba(0,0,0,0)",
+        "color_text_link": "#FD8E16",
+        "color_heading": "#000000",
+        "color_text": "#000000",
+        "color_line": "#F2F2F2",
+        "edges_type": "rounded_corners",
+        "is_lazyload": false,
+        "desktop_layout": "1",
+        "image_alignment": "left",
+        "desktop_height": "400px",
+        "show_section_divider": false,
+        "make_full_page_width": false,
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "image_alignment_mobile": "left",
+        "mobile_height": "250px",
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
     }
   },
   "order": [
@@ -280,6 +398,7 @@
     "image_with_text_bNNQfN",
     "slideshow_3Y7Leh",
     "custom_html_yAMyWz",
-    "custom_html_TzhjPa"
+    "custom_html_TzhjPa",
+    "otsb_faq_2_FP33Fn"
   ]
 }
