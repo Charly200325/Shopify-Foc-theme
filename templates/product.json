@@ -236,14 +236,40 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "custom_html_ADThkN": {
-      "type": "custom-html",
+    "gallery_Gr6UFf": {
+      "type": "gallery",
+      "blocks": {
+        "image_B4fAmQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/istockphoto-1199599311-612x612.jpg",
+            "caption": ""
+          }
+        },
+        "image_zypkRh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/powerful_adhesive_lint_roller_for_pet_hair_intro.webp",
+            "caption": ""
+          }
+        },
+        "image_x7ixTw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/young-1373879_1280.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_B4fAmQ",
+        "image_zypkRh",
+        "image_x7ixTw"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div id=\"shopify-section-template--23926458057035__gallery_rennhY\" class=\"shopify-section section\">\n    <link href=\"//shallybeauty.com/cdn/shop/t/2/assets/section-gallery.css?v=155877206137258697761731551581\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n    <style data-shopify=\"\">\n        .section-template--23926458057035__gallery_rennhY-padding {\n            padding-top: 16px;\n            padding-bottom: 32px;\n        }\n\n        .section-template--23926458057035__gallery_rennhY-padding .gallery__container {\n            gap: 1.0rem;\n            grid-template-columns: repeat(3, 1fr); /* 3 colonnes sur les écrans plus grands */\n        }\n\n        /* Ajustement pour les petits écrans */\n        @media screen and (max-width: 600px) {\n            .section-template--23926458057035__gallery_rennhY-padding .gallery__container {\n                grid-template-columns: repeat(2, 1fr); /* 2 images par ligne sur mobile */\n            }\n\n            .gallery__media--image {\n                width: 100%; /* L'image prend toute la largeur disponible dans sa cellule */\n                height: auto; /* L'image garde ses proportions */\n            }\n        }\n\n        /* Maintien des colonnes plus nombreuses pour les écrans moyens */\n        @media screen and (min-width: 600px) {\n            .section-template--23926458057035__gallery_rennhY-padding .gallery__container {\n                grid-template-columns: repeat(4, 1fr); /* 4 colonnes pour des écrans moyens */\n            }\n        }\n\n        /* Style pour les plus grands écrans */\n        @media screen and (min-width: 900px) {\n            .section-template--23926458057035__gallery_rennhY-padding .gallery__container {\n                grid-template-columns: repeat(3, 1fr); /* 3 colonnes sur les grands écrans */\n            }\n        }\n    </style>\n    <div class=\"color-background-1 section-template--23926458057035__gallery_rennhY-padding\">\n        <div class=\"gallery container container--normal\">\n            <div class=\"gallery__container gallery__height--large\">\n                <div data-aos=\"fade-up\" class=\"gallery__media global-media-settings media aos-init aos-animate\" data-aos-delay=\"0\">\n                    <img src=\"//shallybeauty.com/cdn/shop/files/MODEL_11.jpg?v=1731557681&amp;width=1500\" alt=\"\" srcset=\"//shallybeauty.com/cdn/shop/files/MODEL_11.jpg?v=1731557681&amp;width=165 165w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_11.jpg?v=1731557681&amp;width=360 360w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_11.jpg?v=1731557681&amp;width=535 535w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_11.jpg?v=1731557681&amp;width=750 750w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_11.jpg?v=1731557681&amp;width=1070 1070w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_11.jpg?v=1731557681&amp;width=1500 1500w\" width=\"1500\" height=\"2250\" loading=\"lazy\" class=\"gallery__media--image\" sizes=\"(min-width: 1200px) 550px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)\">\n                </div>\n                <div data-aos=\"fade-up\" class=\"gallery__media global-media-settings media aos-init aos-animate\" data-aos-delay=\"50\">\n                    <img src=\"//shallybeauty.com/cdn/shop/files/MODEL_COMBI_10.jpg?v=1731557683&amp;width=1500\" alt=\"\" srcset=\"//shallybeauty.com/cdn/shop/files/MODEL_COMBI_10.jpg?v=1731557683&amp;width=165 165w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_COMBI_10.jpg?v=1731557683&amp;width=360 360w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_COMBI_10.jpg?v=1731557683&amp;width=535 535w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_COMBI_10.jpg?v=1731557683&amp;width=750 750w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_COMBI_10.jpg?v=1731557683&amp;width=1070 1070w,\n                                //shallybeauty.com/cdn/shop/files/MODEL_COMBI_10.jpg?v=1731557683&amp;width=1500 1500w\" width=\"1500\" height=\"2250\" loading=\"lazy\" class=\"gallery__media--image\" sizes=\"(min-width: 1200px) 550px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)\">\n                </div>\n                <div data-aos=\"fade-up\" class=\"gallery__media global-media-settings media aos-init aos-animate\" data-aos-delay=\"100\">\n                    <img src=\"//shallybeauty.com/cdn/shop/files/MODELE_14.jpg?v=1731557681&amp;width=1500\" alt=\"\" srcset=\"//shallybeauty.com/cdn/shop/files/MODELE_14.jpg?v=1731557681&amp;width=165 165w,\n                                //shallybeauty.com/cdn/shop/files/MODELE_14.jpg?v=1731557681&amp;width=360 360w,\n                                //shallybeauty.com/cdn/shop/files/MODELE_14.jpg?v=1731557681&amp;width=535 535w,\n                                //shallybeauty.com/cdn/shop/files/MODELE_14.jpg?v=1731557681&amp;width=750 750w,\n                                //shallybeauty.com/cdn/shop/files/MODELE_14.jpg?v=1731557681&amp;width=1070 1070w,\n                                //shallybeauty.com/cdn/shop/files/MODELE_14.jpg?v=1731557681&amp;width=1500 1500w\" width=\"1500\" height=\"2035\" loading=\"lazy\" class=\"gallery__media--image\" sizes=\"(min-width: 1200px) 550px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)\">\n                </div>\n            </div>\n        </div>\n    </div>\n</div>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
+        "show_arrows": false,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -260,6 +286,6 @@
     "image_with_text_9kYCcc",
     "custom_html_JN4L7M",
     "custom_html_AH9jLC",
-    "custom_html_ADThkN"
+    "gallery_Gr6UFf"
   ]
 }
