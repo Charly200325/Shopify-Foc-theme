@@ -14,10 +14,10 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message-1": {
+        "message_fE4467": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Livraison Gratuite • Paiement 100% Sécurisé •  Retour Gratuit ",
             "learn_more_text": "Learn more",
             "title": "",
             "content": "",
@@ -27,13 +27,13 @@
         }
       },
       "block_order": [
-        "message-1"
+        "message_fE4467"
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
         "announcement_text_size": "normal",
         "autoplay": true,
-        "cycle_speed": 5,
+        "cycle_speed": 3,
         "background": "#f7aea6",
         "text_color": "#56112a",
         "button_background": "#56112a",
