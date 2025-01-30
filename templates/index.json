@@ -148,9 +148,9 @@
           "settings": {
             "image": "shopify://shop_images/ezgif-3-c6495e3dc6.webp",
             "tab_label": "Text 1",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "subheading": "MEOWTIX™",
+            "title": "Le Rouleau Qui Vous Simplifie La Vie",
+            "content": "<p></p><p>Fini les <strong>poils </strong>et <strong>peluches </strong>! Avec<strong> Meowtix™</strong>, vos vêtements <strong>retrouvent</strong> leur <strong>fraîcheur </strong>en un <strong>seul geste</strong>.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -174,35 +174,41 @@
     },
     "shop-the-look": {
       "type": "shop-the-look",
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "image_with_text_bNNQfN": {
+      "type": "image-with-text",
       "blocks": {
-        "look-1": {
-          "type": "look",
+        "item_r9Nw4g": {
+          "type": "item",
           "settings": {
-            "dot_type": "inverted",
-            "product_1": "",
-            "product_1_horizontal_position": 41,
-            "product_1_vertical_position": 41,
-            "product_1_horizontal_position_mobile": 30,
-            "product_1_vertical_position_mobile": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 46,
-            "product_2_vertical_position": 64,
-            "product_2_horizontal_position_mobile": 50,
-            "product_2_vertical_position_mobile": 50,
-            "product_3": "",
-            "product_3_horizontal_position": 62,
-            "product_3_vertical_position": 50,
-            "product_3_horizontal_position_mobile": 70,
-            "product_3_vertical_position_mobile": 70
+            "image": "shopify://shop_images/v1-ezgif.com-video-to-gif-converter_49455d36-2d39-45c6-bc51-1d10af06e675.webp",
+            "tab_label": "",
+            "subheading": "MEOWTIX™",
+            "title": "Simple et Pratique",
+            "content": "<p>Rincez-le simplement sous l’eau et il est prêt à l'emploi. Fini les recharges jetables : une solution économique et durable.</p>",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "look-1"
+        "item_r9Nw4g"
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "label": "Shop the looks"
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "blog-posts": {
@@ -427,6 +433,7 @@
     "featured_product_3k8thq",
     "image-with-text",
     "shop-the-look",
+    "image_with_text_bNNQfN",
     "blog-posts",
     "image-with-text-block",
     "collection-list",
