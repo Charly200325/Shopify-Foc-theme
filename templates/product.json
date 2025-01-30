@@ -155,10 +155,10 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/v-ezgif.com-video-to-gif-converter_5b2ff84e-f47b-4e2b-9126-9e953977a477.webp",
-            "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "tab_label": "",
+            "subheading": "MEOWTIX",
+            "title": "Propreté Instantanée, Zéro Gâchis",
+            "content": "<p>Un simple passage et <strong>vos vêtements retrouvent toute leur fraîcheur</strong>. Poils d’animaux, peluches, poussière… <strong>Le Rouleau Réutilisable™</strong> s’occupe de tout, encore et encore !</p><p>💚 <strong>Écologique, pratique et ultra efficace</strong>, il devient votre meilleur allié pour un look toujours impeccable. Adoptez-le et oubliez les rouleaux jetables ! </p>",
             "button_text": "",
             "button_link": ""
           }
