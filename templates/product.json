@@ -154,6 +154,7 @@
         "item_AYPHxJ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/v-ezgif.com-video-to-gif-converter_5b2ff84e-f47b-4e2b-9126-9e953977a477.webp",
             "tab_label": "Item",
             "subheading": "Subheading",
             "title": "Image with text",
