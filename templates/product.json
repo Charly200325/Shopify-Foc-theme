@@ -273,6 +273,18 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "custom_html_xGV3iV": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<p style=\"text-align: center\">Write or copy/paste HTML code</p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -286,6 +298,7 @@
     "image_with_text_9kYCcc",
     "custom_html_JN4L7M",
     "custom_html_AH9jLC",
-    "gallery_Gr6UFf"
+    "gallery_Gr6UFf",
+    "custom_html_xGV3iV"
   ]
 }
