@@ -145,7 +145,7 @@
       width: 450px;
       border: 0px solid #f6eeed;
       border-radius: 12px;
-      background-color: #f6eeed;
+      background-color: #d0e5d5;
       display: flex;
       justify-content: space-between;
       text-decoration: none;
@@ -446,15 +446,7 @@
 
   <div class="section-template--23045103190345__ss_testimonials_30_ktwRiz testimonials-template--23045103190345__ss_testimonials_30_ktwRiz" style="background-color:#ffffff; background-image: ;">
     <div class="section-template--23045103190345__ss_testimonials_30_ktwRiz-settings">
-
-      <div class="testimonials-heading-template--23045103190345__ss_testimonials_30_ktwRiz">
-        <h2 class="card-title">{{ section.settings.heading1 }}</h2>
-      </div>
-
-
-      <div class="testimonials-subheading-template--23045103190345__ss_testimonials_30_ktwRiz">
-        <p class="card-text">{{ section.settings.richtext1 }}</p>
-      </div>
+      <div class="testimonials-subheading-template--23045103190345__ss_testimonials_30_ktwRiz" <="" div="">
 
       <div class="testimonials-scrolling-template--23045103190345__ss_testimonials_30_ktwRiz">
         <div class="testimonials-wrapper-template--23045103190345__ss_testimonials_30_ktwRiz">
@@ -473,7 +465,7 @@
               </div>
               <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
 
-                <p class="card-text">{{ section.settings.richtext2 }}</p>
+                <p class="card-text">{{ section.settings.richtext1 }}</p>
 
 
                 <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
@@ -503,8 +495,7 @@
 
 
                 <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>They were moist, flavorful, and surprisingly light. My kids devoured them, and even my picky
-                    husband went back for seconds. I'll definitely be making these again.</p>
+                  <p class="card-text">{{ section.settings.richtext2 }}</p>
                 </div>
 
 
@@ -562,12 +553,11 @@
 
 
                 <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>The matcha flavor is subtle and delicious, and the combination of protein powder and healthy fats
-                    keeps me feeling full and satisfied.</p>
+                  <p class="card-text">{{ section.settings.richtext5 }}</p>
                 </div>
 
 
-                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Chalsey Smith
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Véronique.C
                 </p>
 
               </div>
@@ -578,56 +568,6 @@
 
                 {% if section.settings.image3 != blank -%}
         {{- section.settings.image3 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
-    {%- endif %}
-
-              </div>
-              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                <p class="card-text">{{ section.settings.richtext5 }}</p>
-
-
-                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-
-                </div>
-
-
-                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>I've been trying to incorporate more plant-based protein into my diet, and this recipe was the
-                    perfect way to do it. The bread itself is incredibly flavorful and surprisingly moist.</p>
-                </div>
-
-
-                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Amanda Johnson
-                </p>
-
-              </div>
-            </a>
-            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
-              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                {% if section.settings.image4 != blank -%}
-        {{- section.settings.image4 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
     {%- endif %}
 
               </div>
@@ -663,16 +603,273 @@
 
 
                 <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>I've been trying to incorporate more plant-based protein into my diet, and this recipe was the
-                    perfect way to do it. The bread itself is incredibly flavorful and surprisingly moist.</p>
+                  <p class="card-text">{{ section.settings.richtext7 }}</p>
                 </div>
 
 
-                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Amanda Johnson
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Amandine.S
                 </p>
 
               </div>
             </a>
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image4 != blank -%}
+        {{- section.settings.image4 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext8 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext9 }}</p>
+                </div>
+
+
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Laura.J
+                </p>
+
+              </div>
+            </a>
+
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image5 != blank -%}
+        {{- section.settings.image5 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext10 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+                
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext11 }}</p>
+                </div>
+
+
+                <p class="card-text">{{ section.settings.richtext12 }}</p>
+
+              </div>
+            </a>
+
+            <a href="/pages/404-2" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image6 != blank -%}
+        {{- section.settings.image6 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext13 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <defs>
+                      <linearGradient id="gradtemplate--23045103190345__ss_testimonials_30_ktwRiz10">
+                        <stop offset="0%" stop-color="#9c5455"></stop>
+                        <stop offset="50%" stop-color="#9c5455"></stop>
+                        <stop offset="50%" stop-color="transparent"></stop>
+                        <stop offset="100%" stop-color="transparent"></stop>
+                      </linearGradient>
+                    </defs>
+
+                    <path stroke="#9c5455" d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="url(#gradtemplate--23045103190345__ss_testimonials_30_ktwRiz10)"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext14 }}</p>
+                </div>
+
+
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Véronique.C
+                </p>
+
+              </div>
+            </a>
+
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image7 != blank -%}
+        {{- section.settings.image7 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext15 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext16 }}</p>
+                </div>
+
+
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Amandine.S
+                </p>
+
+              </div>
+            </a>
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image8 != blank -%}
+        {{- section.settings.image8 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext17 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext18 }}</p>
+                </div>
+
+
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Laura.J
+                </p>
+
+              </div>
+            </a>
+
 
           </div>
 
@@ -686,216 +883,8 @@
           <div class="testimonials-list-template--23045103190345__ss_testimonials_30_ktwRiz">
 
 
-            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
-              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                {% if section.settings.image5 != blank -%}
-        {{- section.settings.image5 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
-    {%- endif %}
-
-              </div>
-              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                <p class="testimonials-title-template--23045103190345__ss_testimonials_30_ktwRiz">Surprisingly delicious
-                </p>
-
-
-                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-
-                </div>
-
-
-                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>I've been struggling to find healthy snacks that don't leave me feeling deprived, and these cookies
-                    hit the spot. They're perfect for a post-workout treat or a mid-afternoon pick-me-up.</p>
-                </div>
-
-
-                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Jessica Brown
-                </p>
-
-              </div>
-            </a>
-            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
-              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                {% if section.settings.image6 != blank -%}
-        {{- section.settings.image6 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
-    {%- endif %}
-
-              </div>
-              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                <p class="testimonials-title-template--23045103190345__ss_testimonials_30_ktwRiz">Surprisingly delicious
-                </p>
-
-
-                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-
-                </div>
-
-
-                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>I've been struggling to find healthy snacks that don't leave me feeling deprived, and these cookies
-                    hit the spot. They're perfect for a post-workout treat or a mid-afternoon pick-me-up.</p>
-                </div>
-
-
-                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Jessica Brown
-                </p>
-
-              </div>
-            </a>
-
-            <div class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
-              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                {% if section.settings.image7 != blank -%}
-        {{- section.settings.image7 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
-    {%- endif %}
-
-              </div>
-              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                <p class="testimonials-title-template--23045103190345__ss_testimonials_30_ktwRiz">Delicious &amp; easy
-                </p>
-
-
-                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-
-                </div>
-
-
-                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>The chocolate flavor is rich and decadent, and it completely masks any 'protein powder' taste. I've
-                    even fooled some of my friends into thinking it's just a regular chocolate smoothie!</p>
-                </div>
-
-
-                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Taylor Miller
-                </p>
-
-              </div>
-            </div>
 
             <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
-              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                {% if section.settings.image8 != blank -%}
-        {{- section.settings.image8 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
-    {%- endif %}
-
-              </div>
-              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                <p class="card-text">{{ section.settings.richtext7 }}</p>
-
-
-                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
-
-                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
-                  </svg>
-
-                </div>
-
-
-                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>I'm always on the go, and these are the perfect healthy and delicious snack to keep me fueled (like
-                    a healthier version of a chocolate truffle!).</p>
-                </div>
-
-
-                <p class="card-text">{{ section.settings.richtext8 }}</p>
-
-              </div>
-            </a>
-
-
-
-
-
-            <div class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
               <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
 
                 {% if section.settings.image9 != blank -%}
@@ -905,7 +894,7 @@
               </div>
               <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
 
-                <p class="testimonials-title-template--23045103190345__ss_testimonials_30_ktwRiz">Delicious &amp; easy
+                <p class="testimonials-title-template--23045103190345__ss_testimonials_30_ktwRiz">Toujours dans mon sac, hyper pratique !
                 </p>
 
 
@@ -936,17 +925,15 @@
 
 
                 <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>The chocolate flavor is rich and decadent, and it completely masks any 'protein powder' taste. I've
-                    even fooled some of my friends into thinking it's just a regular chocolate smoothie!</p>
+                  <p class="card-text">{{ section.settings.richtext19 }}</p>
                 </div>
 
 
-                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Taylor Miller
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Adeline.D
                 </p>
 
               </div>
-            </div>
-
+            </a>
             <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
               <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
 
@@ -957,7 +944,8 @@
               </div>
               <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
 
-                <p class="card-text">{{ section.settings.richtext9 }}</p>
+                <p class="testimonials-title-template--23045103190345__ss_testimonials_30_ktwRiz">Un rinçage et il est comme neuf !
+                </p>
 
 
                 <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
@@ -987,16 +975,513 @@
 
 
                 <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
-                  <p>I'm always on the go, and these are the perfect healthy and delicious snack to keep me fueled (like
-                    a healthier version of a chocolate truffle!).</p>
+                  <p class="card-text">{{ section.settings.richtext20 }}</p>
                 </div>
 
 
-                <p class="card-text">{{ section.settings.richtext10 }}</p>
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Laure.M
+                </p>
+
+              </div>
+            </a>
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image11 != blank -%}
+        {{- section.settings.image11 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext21 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext22 }}</p>
+                </div>
+
+
+                <p class="card-text">{{ section.settings.richtext23 }}</p>
 
               </div>
             </a>
 
+
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image12 != blank -%}
+        {{- section.settings.image12 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext24 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext25 }}</p>
+                </div>
+
+
+                <p class="card-text">{{ section.settings.richtext26 }}</p>
+
+              </div>
+            </a>
+
+
+
+
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image13 != blank -%}
+        {{- section.settings.image13 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext27 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext28 }}</p>
+                </div>
+
+
+                <p class="card-text">{{ section.settings.richtext29 }}</p>
+
+              </div>
+            </a>
+
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image14 != blank -%}
+        {{- section.settings.image14 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext30 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext31 }}</p>
+                </div>
+
+
+                <p class="card-text">{{ section.settings.richtext32 }}</p>
+
+              </div>
+            </a>
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image15 != blank -%}
+        {{- section.settings.image15 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="testimonials-title-template--23045103190345__ss_testimonials_30_ktwRiz">Toujours dans mon sac, hyper pratique !
+                </p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext33 }}</p>
+                </div>
+
+
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Adeline.D
+                </p>
+
+              </div>
+            </a>
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image16 != blank -%}
+        {{- section.settings.image16 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="testimonials-title-template--23045103190345__ss_testimonials_30_ktwRiz">Un rinçage et il est comme neuf !
+                </p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext34 }}</p>
+                </div>
+
+
+                <p class="testimonials-author-text-template--23045103190345__ss_testimonials_30_ktwRiz">Laure.M
+                </p>
+
+              </div>
+            </a>
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image17 != blank -%}
+        {{- section.settings.image17 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext35 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext36 }}</p>
+                </div>
+
+
+                <p class="card-text">{{ section.settings.richtext37 }}</p>
+
+              </div>
+            </a>
+
+
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image18 != blank -%}
+        {{- section.settings.image18 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext38 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext39 }}</p>
+                </div>
+
+
+                <p class="card-text">{{ section.settings.richtext40 }}</p>
+
+              </div>
+            </a>
+
+
+
+
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image19 != blank -%}
+        {{- section.settings.image19 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext41 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext42 }}</p>
+                </div>
+
+
+                <p class="card-text">{{ section.settings.richtext43 }}</p>
+
+              </div>
+            </a>
+
+            <a href="#" class="testimonials-card-template--23045103190345__ss_testimonials_30_ktwRiz">
+              <div class="testimonials-image-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                {% if section.settings.image20 != blank -%}
+        {{- section.settings.image20 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}
+
+              </div>
+              <div class="testimonials-content-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                <p class="card-text">{{ section.settings.richtext44 }}</p>
+
+
+                <div class="testimonials-stars-template--23045103190345__ss_testimonials_30_ktwRiz">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
+
+                    <path d="M10 0L12.9389 5.95492L19.5106 6.90983L14.7553 11.5451L15.8779 18.0902L10 15L4.12215 18.0902L5.24472 11.5451L0.489435 6.90983L7.06107 5.95492L10 0Z" fill="#9c5455"></path>
+                  </svg>
+
+                </div>
+
+
+                <div class="testimonials-text-template--23045103190345__ss_testimonials_30_ktwRiz">
+                  <p class="card-text">{{ section.settings.richtext45 }}</p>
+                </div>
+
+
+                <p class="card-text">{{ section.settings.richtext46 }}</p>
+
+              </div>
+            </a>
 
           </div>
 
@@ -1006,7 +1491,7 @@
     </div>
   </div>
 
-</div>
+</div></div>
 
 {% schema %}
 {
@@ -1063,70 +1548,330 @@
             "label": "Image 10"
         },
         {
-            "type": "text",
-            "id": "heading1",
-            "label": "Heading 1",
-            "default": "In your own words"
+            "type": "image_picker",
+            "id": "image11",
+            "label": "Image 11"
+        },
+        {
+            "type": "image_picker",
+            "id": "image12",
+            "label": "Image 12"
+        },
+        {
+            "type": "image_picker",
+            "id": "image13",
+            "label": "Image 13"
+        },
+        {
+            "type": "image_picker",
+            "id": "image14",
+            "label": "Image 14"
+        },
+        {
+            "type": "image_picker",
+            "id": "image15",
+            "label": "Image 15"
+        },
+        {
+            "type": "image_picker",
+            "id": "image16",
+            "label": "Image 16"
+        },
+        {
+            "type": "image_picker",
+            "id": "image17",
+            "label": "Image 17"
+        },
+        {
+            "type": "image_picker",
+            "id": "image18",
+            "label": "Image 18"
+        },
+        {
+            "type": "image_picker",
+            "id": "image19",
+            "label": "Image 19"
+        },
+        {
+            "type": "image_picker",
+            "id": "image20",
+            "label": "Image 20"
         },
         {
             "type": "richtext",
             "id": "richtext1",
             "label": "Richtext 1",
-            "default": "<p>Discover what makes it special from the people who use it.</p>"
+            "default": "<p>Un achat malin pour économiser et protéger la planète !</p>"
         },
         {
             "type": "richtext",
             "id": "richtext2",
             "label": "Richtext 2",
-            "default": "<p>Healthy treat</p>"
+            "default": "<p>Je faisais partie de ceux qui achetaient régulièrement des rouleaux jetables, mais ce rouleau réutilisable change tout. Il fait le job aussi bien, si ce n’est mieux, et je peux l'utiliser plusieurs fois. C’est un investissement vraiment utile, plus économique et écologique. Plus de gaspillage, et mes vêtements restent propres !</p>"
         },
         {
             "type": "richtext",
             "id": "richtext3",
             "label": "Richtext 3",
-            "default": "<p>Paula Wilson</p>"
+            "default": "<p>Sabrina.P</p>"
         },
         {
             "type": "richtext",
             "id": "richtext4",
             "label": "Richtext 4",
-            "default": "<p>Game changer</p>"
+            "default": "<p>J’en ai fini avec les rouleaux jetables !</p>"
         },
         {
             "type": "richtext",
             "id": "richtext5",
             "label": "Richtext 5",
-            "default": "<p>Love this product.</p>"
+            "default": "<p>J'en avais marre de devoir acheter des rouleaux jetables tout le temps. Celui-ci est une vraie révolution ! Il est super efficace et surtout réutilisable. Finis les achats incessants je ne reviendrai plus jamais en arrière !</p>"
         },
         {
             "type": "richtext",
             "id": "richtext6",
             "label": "Richtext 6",
-            "default": "<p>Love this product.</p>"
+            "default": "<p>Les poils, c’est fini !</p>"
         },
         {
             "type": "richtext",
             "id": "richtext7",
             "label": "Richtext 7",
-            "default": "<p>Highly recommend!</p>"
+            "default": "<p>Avoir deux chats, c’est super, mais entre les poils sur les vêtements et dans la maison, c’est une galère. Ce rouleau fait vraiment la différence ! Il est facile à utiliser et super efficace. Je suis vraiment content de mon achat !</p>"
         },
         {
             "type": "richtext",
             "id": "richtext8",
             "label": "Richtext 8",
-            "default": "<p>Bobby Lee</p>"
+            "default": "<p>L’outil anti-poils que je cherchais !</p>"
         },
         {
             "type": "richtext",
             "id": "richtext9",
             "label": "Richtext 9",
-            "default": "<p>Highly recommend!</p>"
+            "default": "<p>Si vous avez un chat, vous savez très bien de quoi je parle : les poils partout ! Ce rouleau m’a sauvé la vie. Fini de me battre pour enlever les poils, il est super rapide et efficace. Et en plus, il est facile à emporter partout. Je suis vraiment ravi !</p>"
         },
         {
             "type": "richtext",
             "id": "richtext10",
             "label": "Richtext 10",
-            "default": "<p>Bobby Lee</p>"
+            "default": "<p>Un achat malin pour économiser et protéger la planète !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext11",
+            "label": "Richtext 11",
+            "default": "<p>Je faisais partie de ceux qui achetaient régulièrement des rouleaux jetables, mais ce rouleau réutilisable change tout. Il fait le job aussi bien, si ce n’est mieux, et je peux l'utiliser plusieurs fois. C’est un investissement vraiment utile, plus économique et écologique. Plus de gaspillage, et mes vêtements restent propres !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext12",
+            "label": "Richtext 12",
+            "default": "<p>Sabrina.P</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext13",
+            "label": "Richtext 13",
+            "default": "<p>J’en ai fini avec les rouleaux jetables !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext14",
+            "label": "Richtext 14",
+            "default": "<p>J'en avais marre de devoir acheter des rouleaux jetables tout le temps. Celui-ci est une vraie révolution ! Il est super efficace et surtout réutilisable. Finis les achats incessants je ne reviendrai plus jamais en arrière !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext15",
+            "label": "Richtext 15",
+            "default": "<p>Les poils, c’est fini !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext16",
+            "label": "Richtext 16",
+            "default": "<p>Avoir deux chats, c’est super, mais entre les poils sur les vêtements et dans la maison, c’est une galère. Ce rouleau fait vraiment la différence ! Il est facile à utiliser et super efficace. Je suis vraiment content de mon achat !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext17",
+            "label": "Richtext 17",
+            "default": "<p>L’outil anti-poils que je cherchais !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext18",
+            "label": "Richtext 18",
+            "default": "<p>Si vous avez un chat, vous savez très bien de quoi je parle : les poils partout ! Ce rouleau m’a sauvé la vie. Fini de me battre pour enlever les poils, il est super rapide et efficace. Et en plus, il est facile à emporter partout. Je suis vraiment ravi !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext19",
+            "label": "Richtext 19",
+            "default": "<p>Avant, je me retrouvais souvent avec des poils sur mes vêtements en arrivant chez des amis ou en soirée. Maintenant, j’ai ce rouleau toujours sur moi, et en deux secondes, mes fringues sont impeccables ! Il est petit, léger, et franchement ultra pratique. Je ne sors plus sans !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext20",
+            "label": "Richtext 20",
+            "default": "<p>Ce rouleau est hyper pratique : un coup sous l’eau et il retrouve toute son efficacité, sans galère ni effort. Plus besoin d’acheter des recharges, il est toujours prêt à l’usage. Simple, rapide et ultra efficace, je ne peux plus m’en passer</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext21",
+            "label": "Richtext 21",
+            "default": "<p>Un rouleau que j’aurais dû acheter bien plus tôt !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext22",
+            "label": "Richtext 22",
+            "default": "<p>'étais un peu sceptique au début, mais franchement, je suis agréablement surpris. Ce rouleau est super efficace, il attrape même les poils les plus récalcitrants de mon chat. Fini de devoir en acheter tout le temps, celui-ci dure et fait vraiment bien le job. Je le recommande sans hésiter !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext23",
+            "label": "Richtext 23",
+            "default": "<p>Sabine.M</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext24",
+            "label": "Richtext 24",
+            "default": "<p>Le rouleau qui me sauve la vie</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext25",
+            "label": "Richtext 25",
+            "default": "<p>Honnêtement, je n’y croyais pas trop au début, mais ce rouleau fonctionne vraiment bien. Il enlève les poils en un rien de temps, sans laisser de traces sur mes vêtements. C’est simple, rapide, et vraiment efficace. Je ne le quitte plus !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext26",
+            "label": "Richtext 26",
+            "default": "<p>Mathilde.S</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext27",
+            "label": "Richtext 27",
+            "default": "<p>Je ne peux plus m’en passer !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext28",
+            "label": "Richtext 28",
+            "default": "<p>Depuis que j’ai ce rouleau, je n’ai plus de poils sur mes vêtements. C’était devenu un vrai casse-tête avant. Mais là, c’est simple et rapide. Un produit vraiment pratique et qui fait son job. Je le conseille à tous les propriétaires d’animaux !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext29",
+            "label": "Richtext 29",
+            "default": "<p>Laurent.R</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext30",
+            "label": "Richtext 30",
+            "default": "<p>Un rouleau hyper pratique et efficace !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext31",
+            "label": "Richtext 31",
+            "default": "<p>C'est simple, ce rouleau fait exactement ce qu’il promet. Il enlève même les poils les plus tenaces, et sans laisser de résidus. Très satisfait de mon achat, il est rapide à utiliser et pratique. C'est exactement ce dont j'avais besoin.</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext32",
+            "label": "Richtext 32",
+            "default": "<p>Samia.A</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext33",
+            "label": "Richtext 33",
+            "default": "<p>Avant, je me retrouvais souvent avec des poils sur mes vêtements en arrivant chez des amis ou en soirée. Maintenant, j’ai ce rouleau toujours sur moi, et en deux secondes, mes fringues sont impeccables ! Il est petit, léger, et franchement ultra pratique. Je ne sors plus sans !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext34",
+            "label": "Richtext 34",
+            "default": "<p>Ce rouleau est hyper pratique : un coup sous l’eau et il retrouve toute son efficacité, sans galère ni effort. Plus besoin d’acheter des recharges, il est toujours prêt à l’usage. Simple, rapide et ultra efficace, je ne peux plus m’en passer</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext35",
+            "label": "Richtext 35",
+            "default": "<p>Un rouleau que j’aurais dû acheter bien plus tôt !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext36",
+            "label": "Richtext 36",
+            "default": "<p>'étais un peu sceptique au début, mais franchement, je suis agréablement surpris. Ce rouleau est super efficace, il attrape même les poils les plus récalcitrants de mon chat. Fini de devoir en acheter tout le temps, celui-ci dure et fait vraiment bien le job. Je le recommande sans hésiter !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext37",
+            "label": "Richtext 37",
+            "default": "<p>Sabine.M</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext38",
+            "label": "Richtext 38",
+            "default": "<p>Le rouleau qui me sauve la vie</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext39",
+            "label": "Richtext 39",
+            "default": "<p>Honnêtement, je n’y croyais pas trop au début, mais ce rouleau fonctionne vraiment bien. Il enlève les poils en un rien de temps, sans laisser de traces sur mes vêtements. C’est simple, rapide, et vraiment efficace. Je ne le quitte plus !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext40",
+            "label": "Richtext 40",
+            "default": "<p>Mathilde.S</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext41",
+            "label": "Richtext 41",
+            "default": "<p>Je ne peux plus m’en passer !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext42",
+            "label": "Richtext 42",
+            "default": "<p>Depuis que j’ai ce rouleau, je n’ai plus de poils sur mes vêtements. C’était devenu un vrai casse-tête avant. Mais là, c’est simple et rapide. Un produit vraiment pratique et qui fait son job. Je le conseille à tous les propriétaires d’animaux !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext43",
+            "label": "Richtext 43",
+            "default": "<p>Laurent.R</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext44",
+            "label": "Richtext 44",
+            "default": "<p>Un rouleau hyper pratique et efficace !</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext45",
+            "label": "Richtext 45",
+            "default": "<p>C'est simple, ce rouleau fait exactement ce qu’il promet. Il enlève même les poils les plus tenaces, et sans laisser de résidus. Très satisfait de mon achat, il est rapide à utiliser et pratique. C'est exactement ce dont j'avais besoin.</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "richtext46",
+            "label": "Richtext 46",
+            "default": "<p>Samia.A</p>"
         }
     ],
     "presets": [
