@@ -35,10 +35,10 @@
         "item-4": {
           "type": "item",
           "settings": {
-            "icon": "picto-email",
+            "icon": "picto-worldwide",
             "custom_icon_width": 50,
             "title": "Cruetly FREE",
-            "content": "<p>Notre marque s'engage à prendre soin des animaux et de la planète</p>"
+            "content": "<p>Notre marque s'engage à prendre soin des animaux et de la planète.</p>"
           }
         },
         "item-3": {
@@ -46,8 +46,8 @@
           "settings": {
             "icon": "picto-lock",
             "custom_icon_width": 50,
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "title": "Paiements sécurisés",
+            "content": "<p>Faites vos achats en toute confiance grâce à notre système de paiements sécurisé.</p>"
           }
         }
       },
