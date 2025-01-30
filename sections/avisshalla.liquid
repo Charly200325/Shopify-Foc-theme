@@ -6,20 +6,27 @@
   </div>
 
   <!-- Slider d'avis -->
-  <div class="reviews__slider" onmousedown="startDrag(event)" ontouchstart="startDrag(event)">
+  <div class="reviews__slider">
     {% for block in section.blocks %}
     <div class="review-card">
-      <div class="review-header">
-        <div class="review-stars"> 
-          {% assign rating = block.settings.rating | default: 5 %}
-          {% for star in (1..rating) %}
-          <svg class="icon-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#333">
-            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.948a1 1 0 00.95.69h4.15c.969 0 1.371 1.24.588 1.81l-3.36 2.44a1 1 0 00-.364 1.118l1.286 3.947c.3.921-.755 1.688-1.54 1.118L10 13.011l-3.36 2.439c-.784.57-1.838-.197-1.54-1.118l1.286-3.947a1 1 0 00-.364-1.118L2.662 9.375c-.784-.57-.38-1.81.588-1.81h4.15a1 1 0 00.95-.69l1.286-3.948z"></path>
-          </svg>
-          {% endfor %}
-        </div>
-        <p class="review-name">{{ block.settings.name }}</p>
+      <div class="review-stars"> 
+        {% assign rating = block.settings.rating | default: 5 %}
+        {% for star in (1..rating) %}
+        <svg class="icon icon-star" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M511.267,197.258c-1.764-5.431-6.457-9.389-12.107-10.209l-158.723-23.065L269.452,20.157
+                c-2.526-5.12-7.741-8.361-13.45-8.361c-5.71,0-10.924,3.241-13.451,8.361l-70.988,143.827l-158.72,23.065
+                c-5.649,0.82-10.344,4.778-12.108,10.208c-1.765,5.431-0.293,11.392,3.796,15.377l114.848,111.954L92.271,482.671
+                c-0.966,5.628,1.348,11.314,5.967,14.671c2.613,1.898,5.708,2.864,8.818,2.864c2.388,0,4.784-0.569,6.978-1.723l141.967-74.638
+                l141.961,74.637c5.055,2.657,11.178,2.215,15.797-1.141c4.619-3.356,6.934-9.044,5.969-14.672l-27.117-158.081l114.861-111.955
+                C511.56,208.649,513.033,202.688,511.267,197.258z"></path>
+            </g>
+          </g>
+        </svg>
+        {% endfor %}
       </div>
+      <p class="review-name">{{ block.settings.name }}</p>
       <p class="review-text">{{ block.settings.review_text }}</p>
     </div>
     {% endfor %}
@@ -30,15 +37,12 @@
   document.addEventListener("DOMContentLoaded", function () {
     const slider = document.querySelector(".reviews__slider");
     let scrollAmount = 0;
-    let isDown = false;
-    let startX;
-    let scrollLeft;
 
     function autoScroll() {
-      if (slider.scrollWidth - slider.clientWidth === scrollAmount) {
+      if (slider.scrollWidth - slider.clientWidth <= scrollAmount) {
         scrollAmount = 0;
       } else {
-        scrollAmount += 300;
+        scrollAmount += slider.clientWidth;
       }
       slider.scrollTo({
         left: scrollAmount,
@@ -47,32 +51,6 @@
     }
 
     setInterval(autoScroll, 3000);
-
-    function startDrag(e) {
-      isDown = true;
-      startX = e.pageX || e.touches[0].pageX;
-      scrollLeft = slider.scrollLeft;
-    }
-
-    function stopDrag() {
-      isDown = false;
-    }
-
-    function moveDrag(e) {
-      if (!isDown) return;
-      e.preventDefault();
-      const x = e.pageX || e.touches[0].pageX;
-      const walk = (x - startX) * 2;
-      slider.scrollLeft = scrollLeft - walk;
-    }
-
-    slider.addEventListener("mousedown", startDrag);
-    slider.addEventListener("touchstart", startDrag);
-    slider.addEventListener("mouseleave", stopDrag);
-    slider.addEventListener("mouseup", stopDrag);
-    slider.addEventListener("touchend", stopDrag);
-    slider.addEventListener("mousemove", moveDrag);
-    slider.addEventListener("touchmove", moveDrag);
   });
 </script>
 
@@ -103,11 +81,7 @@ h2 {
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 10px;
-  cursor: grab;
-}
-
-.reviews__slider:active {
-  cursor: grabbing;
+  scroll-behavior: smooth;
 }
 
 .reviews__slider::-webkit-scrollbar {
@@ -118,48 +92,81 @@ h2 {
   background: #F3F3F3;
   border-radius: 10px;
   padding: 15px;
-  margin: 0 8px;
-  flex: 0 0 280px;
+  margin: 0 10px;
+  flex: 0 0 90%;
   height: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   scroll-snap-align: center;
   text-align: left;
-}
-
-.review-header {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .review-stars {
   display: flex;
+  gap: 2px;
+  margin-bottom: 5px;
 }
 
 .icon-star {
-  width: 16px;
-  height: 16px;
+  width: 17px;
+  height: 17px;
 }
 
 .review-name {
   font-weight: bold;
-  margin: 0;
-  font-size: 14px;
 }
 
 .review-text {
-  font-size: 13px;
-  margin-top: 5px;
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
-  .reviews__slider {
-    padding: 10px;
-  }
-
   .review-card {
-    flex: 0 0 85%;
-    margin: 0 5px;
+    flex: 0 0 100%;
+    margin: 0;
   }
 }
 </style>
+
+{% schema %}
+{
+  "name": "Section Avis",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Avis",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Nom du client",
+          "default": "Julie V."
+        },
+        {
+          "type": "textarea",
+          "id": "review_text",
+          "label": "Avis du client",
+          "default": "Le crayon 4-en-1 de Shally est devenu mon indispensable beauté."
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Note (1-5)",
+          "default": 5,
+          "min": 1,
+          "max": 5
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Section Avis",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
