@@ -274,53 +274,16 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "avis_JKa4mG": {
-      "type": "avis",
+    "custom_html_jH3tbm": {
+      "type": "custom-html",
       "settings": {
-        "image1": "shopify://shop_images/istockphoto-1199599311-612x612.jpg",
-        "image2": "shopify://shop_images/deux_rouleau_bleu_rose.png",
-        "image3": "shopify://shop_images/powerful_adhesive_lint_roller_for_pet_hair_intro.webp",
-        "image4": "shopify://shop_images/rouleau_vert_sans_texte.png",
-        "image6": "shopify://shop_images/roller_vert_1.png",
-        "heading1": "In your own words",
-        "richtext1": "<p>Discover what makes it special from the people who use it.</p>",
-        "richtext2": "<p>Healthy treat</p>",
-        "richtext3": "<p>They were moist, flavorful, and surprisingly light. My kids devoured them, and even my picky husband went back for seconds. I'll definitely be making these again.</p>",
-        "richtext4": "<p>Paula Wilson</p>",
-        "richtext5": "<p>Game changer</p>",
-        "richtext6": "<p>The matcha flavor is subtle and delicious, and the combination of protein powder and healthy fats keeps me feeling full and satisfied.</p>",
-        "richtext7": "<p>Chalsey Smith</p>",
-        "richtext8": "<p>Love this product.</p>",
-        "richtext9": "<p>I've been trying to incorporate more plant-based protein into my diet, and this recipe was the perfect way to do it. The bread itself is incredibly flavorful and surprisingly moist.</p>",
-        "richtext10": "<p>Amanda Johnson</p>",
-        "richtext11": "<p>Healthy treat</p>",
-        "richtext12": "<p>They were moist, flavorful, and surprisingly light. My kids devoured them, and even my picky husband went back for seconds. I'll definitely be making these again.</p>",
-        "richtext13": "<p>Paula Wilson</p>",
-        "richtext14": "<p>Game changer</p>",
-        "richtext15": "<p>The matcha flavor is subtle and delicious, and the combination of protein powder and healthy fats keeps me feeling full and satisfied.</p>",
-        "richtext16": "<p>Chalsey Smith</p>",
-        "richtext17": "<p>Love this product.</p>",
-        "richtext18": "<p>I've been trying to incorporate more plant-based protein into my diet, and this recipe was the perfect way to do it. The bread itself is incredibly flavorful and surprisingly moist.</p>",
-        "richtext19": "<p>Amanda Johnson</p>",
-        "richtext20": "<p>Healthy treat</p>",
-        "richtext21": "<p>They were moist, flavorful, and surprisingly light. My kids devoured them, and even my picky husband went back for seconds. I'll definitely be making these again.</p>",
-        "richtext22": "<p>Paula Wilson</p>",
-        "richtext23": "<p>Game changer</p>",
-        "richtext24": "<p>The matcha flavor is subtle and delicious, and the combination of protein powder and healthy fats keeps me feeling full and satisfied.</p>",
-        "richtext25": "<p>Chalsey Smith</p>",
-        "richtext26": "<p>Love this product.</p>",
-        "richtext27": "<p>I've been trying to incorporate more plant-based protein into my diet, and this recipe was the perfect way to do it. The bread itself is incredibly flavorful and surprisingly moist.</p>",
-        "richtext28": "<p>Amanda Johnson</p>",
-        "richtext29": "<p>Healthy treat</p>",
-        "richtext30": "<p>They were moist, flavorful, and surprisingly light. My kids devoured them, and even my picky husband went back for seconds. I'll definitely be making these again.</p>",
-        "richtext31": "<p>Paula Wilson</p>",
-        "richtext32": "<p>Game changer</p>",
-        "richtext33": "<p>The matcha flavor is subtle and delicious, and the combination of protein powder and healthy fats keeps me feeling full and satisfied.</p>",
-        "richtext34": "<p>Chalsey Smith</p>",
-        "richtext35": "<p>Love this product.</p>",
-        "richtext36": "<p>I've been trying to incorporate more plant-based protein into my diet, and this recipe was the perfect way to do it. The bread itself is incredibly flavorful and surprisingly moist.</p>",
-        "richtext37": "<p>Amanda Johnson</p>",
-        "richtext38": "<p>Healthy treat</p>"
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
@@ -336,6 +299,6 @@
     "custom_html_JN4L7M",
     "custom_html_AH9jLC",
     "gallery_Gr6UFf",
-    "avis_JKa4mG"
+    "custom_html_jH3tbm"
   ]
 }
