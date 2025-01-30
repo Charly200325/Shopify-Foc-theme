@@ -100,7 +100,7 @@
     "rich_text_btdzw7": {
       "type": "rich-text",
       "settings": {
-        "subheading": "Meowtix",
+        "subheading": "Meowtix™",
         "title": "Le rouleau anti-poils réutilisable",
         "content": "<p><strong>un geste éco-responsable, une économie d'argent et une solution parfaite pour garder vos vêtements toujours propre.</strong></p>",
         "button_text": "",
@@ -156,9 +156,9 @@
           "settings": {
             "image": "shopify://shop_images/v-ezgif.com-video-to-gif-converter_5b2ff84e-f47b-4e2b-9126-9e953977a477.webp",
             "tab_label": "",
-            "subheading": "MEOWTIX",
+            "subheading": "MEOWTIX™",
             "title": "Propreté Instantanée, Zéro Gâchis",
-            "content": "<p>Un simple passage et <strong>vos vêtements retrouvent toute leur fraîcheur</strong>. Poils d’animaux, peluches, poussière… <strong>Le Rouleau Réutilisable™</strong> s’occupe de tout, encore et encore !</p><p>💚 <strong>Écologique, pratique et ultra efficace</strong>, il devient votre meilleur allié pour un look toujours impeccable. Adoptez-le et oubliez les rouleaux jetables ! </p>",
+            "content": "<p>Un simple passage et <strong>vos vêtements retrouvent toute leur fraîcheur</strong>. Poils d’animaux, peluches, poussière… <strong>Le Rouleau Meowtix™</strong> s’occupe de tout, encore et encore !</p><p>💚 <strong>Écologique, pratique et ultra efficace</strong>, il devient votre meilleur allié pour un look toujours impeccable. Adoptez-le et oubliez les rouleaux jetables ! </p>",
             "button_text": "",
             "button_link": ""
           }
@@ -166,6 +166,38 @@
       },
       "block_order": [
         "item_AYPHxJ"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_9kYCcc": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_JyXXmc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ezgif-3-57c8ab7f49.webp",
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_JyXXmc"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -188,6 +220,7 @@
     "rich_text_btdzw7",
     "ss_waves_4ccqwc",
     "custom_html_DaJTzb",
-    "image_with_text_A6gdnT"
+    "image_with_text_A6gdnT",
+    "image_with_text_9kYCcc"
   ]
 }
