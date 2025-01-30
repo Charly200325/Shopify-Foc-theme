@@ -355,7 +355,7 @@
         "frequently_asked_question_3cmXkB"
       ],
       "settings": {
-        "heading": "FAQs",
+        "heading": "QUESTIONS FRÉQUENTES",
         "heading_size": 100,
         "heading_tag": "h2",
         "heading_alignment": "center",
@@ -366,10 +366,10 @@
         "button_link": "",
         "open_new_window": false,
         "background_color_light": "rgba(0,0,0,0)",
-        "color_text_link": "#FD8E16",
+        "color_text_link": "#fd8e16",
         "color_heading": "#000000",
         "color_text": "#000000",
-        "color_line": "#F2F2F2",
+        "color_line": "#f2f2f2",
         "edges_type": "square",
         "is_lazyload": false,
         "desktop_layout": "1",
@@ -385,6 +385,10 @@
         "padding_top_mobile": 28,
         "padding_bottom_mobile": 28
       }
+    },
+    "avisshalla_pGqMbg": {
+      "type": "avisshalla",
+      "settings": {}
     }
   },
   "order": [
@@ -399,6 +403,7 @@
     "slideshow_3Y7Leh",
     "custom_html_yAMyWz",
     "custom_html_TzhjPa",
-    "otsb_faq_1_Ct8tF8"
+    "otsb_faq_1_Ct8tF8",
+    "avisshalla_pGqMbg"
   ]
 }
