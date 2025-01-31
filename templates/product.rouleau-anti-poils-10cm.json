@@ -87,8 +87,8 @@
     "custom_liquid_99kJm8": {
       "type": "custom-liquid",
       "settings": {
-        "subheading": "Your subheading",
-        "title": "Your title",
+        "subheading": "",
+        "title": "",
         "liquid": "<div data-rapi-id=\"rapi_62d0896bf9c5a4\"></div>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
