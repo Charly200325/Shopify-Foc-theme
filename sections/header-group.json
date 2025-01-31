@@ -83,10 +83,23 @@
         "transparent_logo": "shopify://shop_images/MEOWTIX__2_-removebg-preview.png",
         "search_menu": ""
       }
+    },
+    "custom_html_dQK7i4": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<main id=\"MainContent\" class=\"content-for-layout focus-none\" role=\"main\" tabindex=\"-1\">\n  <section id=\"shopify-section-template--23926457925963__main\" class=\"shopify-section section\">\n    <link href=\"//shallybeauty.com/cdn/shop/t/2/assets/section-tracking.css?v=17685775011022765011731551581\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n    <style>\n      .section-template--23926457925963__main-padding {\n        padding-top: 28px;\n        padding-bottom: 28px;\n      }\n\n      @media screen and (min-width: 750px) {\n        .section-template--23926457925963__main-padding {\n          padding-top: 36px;\n          padding-bottom: 36px;\n        }\n      }\n\n      .color-background-1 {\n        background-color: #f7f7f7;\n      }\n\n      .tracking__alignment--center {\n        text-align: center;\n      }\n\n      .heading__section p {\n        font-size: 20px;\n        color: #333;\n      }\n\n      .heading__section h2 {\n        font-size: 32px;\n        font-weight: bold;\n        margin: 20px 0;\n        color: #222;\n      }\n\n      .tracking__wrapper {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        gap: 15px;\n      }\n\n      .field__input {\n        padding: 10px;\n        font-size: 16px;\n        border: 1px solid #ccc;\n        border-radius: 5px;\n        width: 250px;\n        outline: none;\n      }\n\n      .field__input:focus {\n        border-color: #5f9ea0;\n      }\n\n      .button__container button {\n        background-color: #D0E5D5;\n        border: none;\n        color: #333;\n        padding: 12px 20px;\n        font-size: 16px;\n        border-radius: 5px;\n        cursor: pointer;\n      }\n\n      .button__container button:hover {\n        background-color: #c1d4c1;\n      }\n\n      /* Suppression du label du champ d'entrée au-dessus */\n      .field__label {\n        position: absolute;\n        top: 50%;\n        left: 10px;\n        transform: translateY(-50%);\n        font-size: 16px;\n        color: #aaa;\n        pointer-events: none;\n      }\n\n      .field__input:focus + .field__label,\n      .field__input:not(:placeholder-shown) + .field__label {\n        top: -10px;\n        font-size: 12px;\n        color: #5f9ea0;\n      }\n\n      /* Suppression de l'affichage du label en haut à gauche */\n      .field__input:empty + .field__label {\n        display: none;\n      }\n    </style>\n\n    <div class=\"color-background-1 section-template--23926457925963__main-padding\">\n      <div class=\"tracking tracking__alignment--center container container--narrow\">\n        <div class=\"heading__section center\">\n          <p class=\"h3 subheading aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"0\">\n            Meowtix™\n          </p>\n          <h2 class=\"heading heading__style--2 tracking__heading aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"50\">\n            <span>Suivre ma commande</span>\n          </h2>\n        </div>\n\n        <div class=\"tracking__wrapper\">\n          <div class=\"field aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"100\">\n            <input type=\"text\" id=\"YQNum\" class=\"field__input\" name=\"track[Numéro de commande]\" placeholder=\"Numéro de commande\">\n            <label class=\"field__label\" for=\"YQNum\">Numéro de commande</label>\n          </div>\n\n          <div class=\"button__container aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"150\">\n            <button type=\"submit\" onclick=\"doTrack()\">Suivre</button>\n          </div>\n        </div>\n\n        <script type=\"text/javascript\">\n          const doTrack = () => {\n            const num = document.getElementById('YQNum').value;\n            YQV5.trackSingle({\n              YQ_ContainerId: 'YQContainer',\n              YQ_Lang: 'fr',\n              YQ_Num: num,\n            });\n          };\n        </script>\n\n        <div id=\"YQContainer\"></div>\n      </div>\n    </div>\n\n    <script type=\"text/javascript\" src=\"//www.17track.net/externalcall.js\" defer></script>\n  </section>\n</main>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom_html_dQK7i4"
   ]
 }
