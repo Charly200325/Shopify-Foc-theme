@@ -324,15 +324,6 @@
             "row_content": "<p>Absolument ! Sa taille compacte le rend facile à glisser dans votre sac pour des retouches à tout moment.</p>"
           }
         },
-        "frequently_asked_question_CBf7mC": {
-          "type": "frequently_asked_question",
-          "settings": {
-            "icon": "none",
-            "custom_icon": "",
-            "heading": "Est-ce facile à nettoyer ?",
-            "row_content": "<p>Oui, il suffit de le rincer sous l'eau pour enlever les poils accumulés. Il est conçu pour être utilisé encore et encore sans perdre de son efficacité.</p>"
-          }
-        },
         "frequently_asked_question_ry8Tjq": {
           "type": "frequently_asked_question",
           "settings": {
@@ -374,7 +365,6 @@
         "frequently_asked_question_jVALmt",
         "frequently_asked_question_U6Gtkk",
         "frequently_asked_question_M3fG6F",
-        "frequently_asked_question_CBf7mC",
         "frequently_asked_question_ry8Tjq",
         "frequently_asked_question_9n6tzr",
         "frequently_asked_question_kTahBU",
