@@ -342,6 +342,52 @@
         "border_thickness": 0
       }
     },
+    "faq_FjwdyD": {
+      "type": "faq",
+      "blocks": {
+        "question_e6TGDB": {
+          "type": "question",
+          "settings": {
+            "title": "Quel est le délai d'expédition des produits ?",
+            "answer": "<p>Chez Meowtix™ nous expédions vos colis en 24-48h. Si vous avez des questions, veuillez nous contacter directement.</p>"
+          }
+        },
+        "question_VjqTxe": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "question_P9Vgh7": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        },
+        "question_TecHUq": {
+          "type": "question",
+          "settings": {
+            "title": "About your shop",
+            "answer": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_e6TGDB",
+        "question_VjqTxe",
+        "question_P9Vgh7",
+        "question_TecHUq"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "otsb_faq_1_Ct8tF8": {
       "type": "otsb-faq-1",
       "blocks": {
@@ -416,6 +462,15 @@
             "heading": "Proposez-vous des retours ou des échanges ?",
             "row_content": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
           }
+        },
+        "frequently_asked_question_LHAnpa": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "",
+            "heading": "Frequently asked question",
+            "row_content": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
         }
       },
       "block_order": [
@@ -426,7 +481,8 @@
         "frequently_asked_question_rUx76c",
         "frequently_asked_question_MRURnC",
         "frequently_asked_question_z3W9Wn",
-        "frequently_asked_question_3cmXkB"
+        "frequently_asked_question_3cmXkB",
+        "frequently_asked_question_LHAnpa"
       ],
       "settings": {
         "heading": "QUESTIONS FRÉQUENTES",
@@ -474,6 +530,7 @@
     "ss_wave_2_rGfzAj",
     "avisshalla_pGqMbg",
     "ss_wave_2_KQjH8R",
+    "faq_FjwdyD",
     "otsb_faq_1_Ct8tF8"
   ]
 }

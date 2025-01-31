@@ -69,7 +69,7 @@
       "settings": {
         "enable_sticky_header": false,
         "logo": "shopify://shop_images/MEOWTIX__2_-removebg-preview.png",
-        "logo_max_width": 140,
+        "logo_max_width": 95,
         "mobile_logo_max_width": 100,
         "navigation_menu": "main-menu",
         "sidebar_navigation_menu": "",
