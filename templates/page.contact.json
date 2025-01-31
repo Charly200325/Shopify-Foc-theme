@@ -20,7 +20,7 @@
       "type": "contact-form",
       "settings": {
         "title": "",
-        "content": "<h1>Avez-vous des questions pour notre équipe ?</h1><h2>Écrivez nous votre message</h2><p><strong>L'équipe Meowtix</strong><em>™</em><strong> est toujours disponible pour répondre à vos questions.</strong><br/>Du lundi au vendredi de 8h à 16h.</p><p>à l'adresse : meowtixshop@gmail.com</p>",
+        "content": "<h1>Avez-vous des questions pour notre équipe ?</h1><h2>Écrivez nous votre message</h2><p><strong>L'équipe Meowtix</strong><em>™</em><strong> est toujours disponible pour répondre à vos questions.</strong><br/>Du lundi au vendredi de 8h à 16h.</p><p>à l'adresse : <strong>meowtixshop@gmail.com</strong></p>",
         "text_1_heading": "",
         "text_1_text": "",
         "text_2_heading": "",
