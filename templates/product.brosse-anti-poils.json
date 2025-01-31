@@ -342,12 +342,21 @@
             "row_content": "<p>Oui, elle est conçue pour être douce sur les tissus tout en étant efficace contre les poils.</p>"
           }
         },
+        "frequently_asked_question_rjBx9f": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "",
+            "heading": "Quelle est la durée de vie de la brosse Meowtix™ ?",
+            "row_content": "<p>Avec un entretien régulier, notre brosse peut durer plusieurs années, ce qui en fait un excellent investissement à long terme.</p>"
+          }
+        },
         "frequently_asked_question_9n6tzr": {
           "type": "frequently_asked_question",
           "settings": {
             "icon": "none",
             "custom_icon": "",
-            "heading": "Comment est-ce que ce produit est plus écologique que les rouleaux jetables ?",
+            "heading": "Comment est-ce que cette brosse est plus écologique que les rouleaux jetables ?",
             "row_content": "<p>La brosse Meowtix™ ne nécessite aucun produit chimique ou consommable, ce qui le rend beaucoup plus respectueux de l'environnement. Vous évitez ainsi des déchets inutiles tout en profitant d'une efficacité durable.</p>"
           }
         },
@@ -359,15 +368,6 @@
             "heading": "Proposez-vous des retours ou des échanges ?",
             "row_content": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
           }
-        },
-        "frequently_asked_question_rjBx9f": {
-          "type": "frequently_asked_question",
-          "settings": {
-            "icon": "none",
-            "custom_icon": "",
-            "heading": "Quelle est la durée de vie de la brosse Meowtix™ ?",
-            "row_content": "<p>Avec un entretien régulier, notre brosse peut durer plusieurs années, ce qui en fait un excellent investissement à long terme.</p>"
-          }
         }
       },
       "block_order": [
@@ -376,9 +376,9 @@
         "frequently_asked_question_tmJCyE",
         "frequently_asked_question_M3fG6F",
         "frequently_asked_question_a4HwE7",
+        "frequently_asked_question_rjBx9f",
         "frequently_asked_question_9n6tzr",
-        "frequently_asked_question_CtMEzw",
-        "frequently_asked_question_rjBx9f"
+        "frequently_asked_question_CtMEzw"
       ],
       "settings": {
         "heading": "QUESTIONS FRÉQUENTES",
