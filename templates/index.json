@@ -132,84 +132,13 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/ezgif-3-c6495e3dc6.webp",
-            "tab_label": "Text 1",
-            "subheading": "MEOWTIX™",
-            "title": "Le Rouleau Qui Vous Simplifie La Vie",
-            "content": "<p></p><p>Fini les <strong>poils </strong>et <strong>peluches </strong>! Avec<strong> Meowtix™</strong>, vos vêtements <strong>retrouvent</strong> leur <strong>fraîcheur </strong>en un <strong>seul geste</strong>.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item-1"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "settings": {
-        "reveal_on_scroll": true,
-        "label": "Shop the looks"
-      }
-    },
-    "image_with_text_bNNQfN": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_r9Nw4g": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/v1-ezgif.com-video-to-gif-converter_49455d36-2d39-45c6-bc51-1d10af06e675.webp",
-            "tab_label": "",
-            "subheading": "MEOWTIX™",
-            "title": "Simple et Pratique",
-            "content": "<p>Rincez-le simplement sous l’eau et il est prêt à l'emploi. Fini les recharges jetables : une solution économique et durable.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_r9Nw4g"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "slideshow_3Y7Leh": {
+    "slideshow_gDR3ic": {
       "type": "slideshow",
       "blocks": {
-        "image_9WyNpX": {
+        "image_GW6wgi": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/istockphoto-505769981-612x612.jpg",
+            "image": "shopify://shop_images/light-20821-race-chien-pour-famille.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
@@ -226,7 +155,7 @@
         }
       },
       "block_order": [
-        "image_9WyNpX"
+        "image_GW6wgi"
       ],
       "settings": {
         "section_height": "auto",
@@ -236,8 +165,37 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "slideshow_3Y7Leh": {
+      "type": "slideshow",
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_EpMFPf": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "98%",
+        "content": "<h1><strong>De nos clients en Europe</strong></h1><p>sont ravis par l’efficacité de notre rouleau, qui élimine les poils en un seul geste. Leur expérience révèle une satisfaction exceptionnelle, avec une note de 98 % attribuée pour la <strong>simplicité et l'efficacité de nos rouleaux.</strong></p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "custom_html_yAMyWz": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -473,10 +431,9 @@
     "rich_text_YVrH7f",
     "ss_waves_9jMpQx",
     "featured_collections_n4EAFc",
-    "image-with-text",
-    "shop-the-look",
-    "image_with_text_bNNQfN",
+    "slideshow_gDR3ic",
     "slideshow_3Y7Leh",
+    "rich_text_EpMFPf",
     "custom_html_yAMyWz",
     "ss_wave_2_rGfzAj",
     "avisshalla_pGqMbg",
