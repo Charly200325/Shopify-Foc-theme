@@ -359,26 +359,26 @@
             "answer": "<p>Oui,  l'équipe Meowtix™ vous offre la livraison partout en France.</p>"
           }
         },
-        "question_P9Vgh7": {
-          "type": "question",
-          "settings": {
-            "title": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        },
         "question_TecHUq": {
           "type": "question",
           "settings": {
-            "title": "About your shop",
-            "answer": "<p>Write content to help your customers to better understand your products or policies.</p>"
+            "title": "Pourquoi devrais-je arrêter d'utiliser des rouleaux adhésifs jetables pour enlever les poils de mon animal ?",
+            "answer": "<p>Les rouleaux jetables sont pratiques, mais ils sont non seulement mauvais pour l'environnement, mais aussi coûteux à long terme. Le rouleau réutilisable est une solution durable et économique, qui permet de dire adieu à l'achat constant de rouleaux jetables et de contribuer à la préservation de la planète.</p>"
+          }
+        },
+        "question_9eeeAr": {
+          "type": "question",
+          "settings": {
+            "title": "Proposez-vous des retours ou des échanges ?",
+            "answer": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
           }
         }
       },
       "block_order": [
         "question_e6TGDB",
         "question_VjqTxe",
-        "question_P9Vgh7",
-        "question_TecHUq"
+        "question_TecHUq",
+        "question_9eeeAr"
       ],
       "settings": {
         "show_navigation": false,
@@ -484,6 +484,7 @@
         "frequently_asked_question_3cmXkB",
         "frequently_asked_question_LHAnpa"
       ],
+      "disabled": true,
       "settings": {
         "heading": "QUESTIONS FRÉQUENTES",
         "heading_size": 100,
