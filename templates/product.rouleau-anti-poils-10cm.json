@@ -303,15 +303,6 @@
             "row_content": "<p>Absolument ! Le rouleau Meowtix™ fonctionne sur une large variété de surfaces, qu'il s'agisse de tissus délicats ou de matériaux plus épais comme les tapis. Il est doux mais puissant, ce qui le rend polyvalent pour tous vos besoins de nettoyage.</p>"
           }
         },
-        "frequently_asked_question_M3fG6F": {
-          "type": "frequently_asked_question",
-          "settings": {
-            "icon": "none",
-            "custom_icon": "",
-            "heading": "Le rouleau est-il facile à transporter ?",
-            "row_content": "<p>Absolument ! Sa taille compacte le rend facile à glisser dans votre sac pour des retouches à tout moment.</p>"
-          }
-        },
         "frequently_asked_question_CBf7mC": {
           "type": "frequently_asked_question",
           "settings": {
@@ -361,7 +352,6 @@
       "block_order": [
         "frequently_asked_question_jVALmt",
         "frequently_asked_question_U6Gtkk",
-        "frequently_asked_question_M3fG6F",
         "frequently_asked_question_CBf7mC",
         "frequently_asked_question_ry8Tjq",
         "frequently_asked_question_9n6tzr",
