@@ -239,6 +239,22 @@
             "rating": 5
           }
         },
+        "review_aqQKDz": {
+          "type": "review",
+          "settings": {
+            "name": "Tom.R",
+            "review_text": "Rien à redire sur l'efficacité du produit. Cette brosse enlève plus de poils que la majorité des autres brosses du marché.",
+            "rating": 5
+          }
+        },
+        "review_FLb3tf": {
+          "type": "review",
+          "settings": {
+            "name": "Sonia.C",
+            "review_text": "Franchement je n'y croyais pas au début... Mais après l'avoir testée sur mon plaid plein de poils j'ai halluciné ! Tout est parti en quelques secondes.",
+            "rating": 5
+          }
+        },
         "review_iD3qWT": {
           "type": "review",
           "settings": {
@@ -274,6 +290,8 @@
       },
       "block_order": [
         "review_DyTfgX",
+        "review_aqQKDz",
+        "review_FLb3tf",
         "review_iD3qWT",
         "review_b68KqW",
         "review_mBWWN8",
