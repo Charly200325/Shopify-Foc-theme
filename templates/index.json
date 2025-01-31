@@ -359,6 +359,13 @@
             "answer": "<p>Oui,  l'équipe Meowtix™ vous offre la livraison partout en France.</p>"
           }
         },
+        "question_9eeeAr": {
+          "type": "question",
+          "settings": {
+            "title": "Proposez-vous des retours ou des échanges ?",
+            "answer": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
+          }
+        },
         "question_TecHUq": {
           "type": "question",
           "settings": {
@@ -366,19 +373,20 @@
             "answer": "<p>Les rouleaux jetables sont pratiques, mais ils sont non seulement mauvais pour l'environnement, mais aussi coûteux à long terme. Le rouleau réutilisable est une solution durable et économique, qui permet de dire adieu à l'achat constant de rouleaux jetables et de contribuer à la préservation de la planète.</p>"
           }
         },
-        "question_9eeeAr": {
+        "question_zK38QY": {
           "type": "question",
           "settings": {
-            "title": "Proposez-vous des retours ou des échanges ?",
-            "answer": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
+            "title": "Est-ce que le rouleau est vraiment économique sur le long terme ?",
+            "answer": "<p>Oui, en utilisant le rouleau Meowtix™, vous réduisez vos dépenses en rouleaux jetables et autres produits de nettoyage. En plus, sa durabilité et son efficacité vous feront économiser de l'argent au fil du temps.</p>"
           }
         }
       },
       "block_order": [
         "question_e6TGDB",
         "question_VjqTxe",
+        "question_9eeeAr",
         "question_TecHUq",
-        "question_9eeeAr"
+        "question_zK38QY"
       ],
       "settings": {
         "show_navigation": false,
