@@ -65,24 +65,24 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Profitez de -10% sur votre première commande en vous inscrivant à notre newsletter !",
+            "content": "<p>Recevez également toutes les nouveautés en avant-première. Bienvenue dans la communauté Meowtix<em>™</em> !</p>"
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
-            "title": "About our store",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
+            "title": "À Propos de nous",
+            "content": "<p><strong>Meowtix</strong>T™<strong> : La Marque Française des rouleaux réutilisables, pensées pour garder vos vêtements et votre intérieur toujours propre.</strong><br/><strong>Une équipe passionnée au service de votre confort et de la planète. 💛</strong></p><p>💌 <strong>Contact : meowtixshop@outlook.com</strong></p>"
           }
         },
         "links": {
           "type": "links",
           "settings": {
             "menu": "footer"
-          }
-        },
-        "newsletter": {
-          "type": "newsletter",
-          "settings": {
-            "title": "Newsletter",
-            "content": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         },
         "social_media": {
@@ -94,9 +94,9 @@
         }
       },
       "block_order": [
+        "newsletter",
         "text",
         "links",
-        "newsletter",
         "social_media"
       ],
       "settings": {
