@@ -239,14 +239,6 @@
             "rating": 5
           }
         },
-        "review_aqQKDz": {
-          "type": "review",
-          "settings": {
-            "name": "Tom.R",
-            "review_text": "Rien à redire sur l'efficacité du produit. Cette brosse enlève plus de poils que la majorité des autres brosses du marché.",
-            "rating": 5
-          }
-        },
         "review_FLb3tf": {
           "type": "review",
           "settings": {
@@ -263,6 +255,14 @@
             "rating": 5
           }
         },
+        "review_aqQKDz": {
+          "type": "review",
+          "settings": {
+            "name": "Tom.R",
+            "review_text": "Rien à redire sur l'efficacité du produit. Cette brosse enlève plus de poils que la majorité des autres brosses du marché.",
+            "rating": 5
+          }
+        },
         "review_b68KqW": {
           "type": "review",
           "settings": {
@@ -271,11 +271,27 @@
             "rating": 5
           }
         },
+        "review_9enW39": {
+          "type": "review",
+          "settings": {
+            "name": "Fabien.O",
+            "review_text": "Avec un chien à la maison, impossible d'avoir des vêtements propres... mais ce petit outil fait vraiment la différence ! Il attrape les poils en un rien de temps, et je peux l'emmener partout. Très satisfait !",
+            "rating": 5
+          }
+        },
         "review_mBWWN8": {
           "type": "review",
           "settings": {
             "name": "Adeline.D",
             "review_text": "Avant, je me retrouvais souvent avec des poils sur mes vêtements en arrivant chez des amis ou en soirée. Maintenant, j’ai ce rouleau toujours sur moi, et en deux secondes, mes fringues sont impeccables ! Il est petit, léger, et franchement ultra pratique. Je ne sors plus sans !",
+            "rating": 5
+          }
+        },
+        "review_pdVtYw": {
+          "type": "review",
+          "settings": {
+            "name": "Julie V.",
+            "review_text": "Efficacité redoutable ! Avec 4 chats qui affectionnent particulièrement nos canapés recouverts de lin noir et de coussins en velours, l'entretien était un cauchemar. Cette brosse a changé notre vie. Elle enlève tous les poils en quelques passages, et 2-3 petits aller-retours de droite à gauche et tout les poils vont dans un petit réservoir. Elle est radicale ! Je recommande à 100% !!!",
             "rating": 5
           }
         },
@@ -290,11 +306,13 @@
       },
       "block_order": [
         "review_DyTfgX",
-        "review_aqQKDz",
         "review_FLb3tf",
         "review_iD3qWT",
+        "review_aqQKDz",
         "review_b68KqW",
+        "review_9enW39",
         "review_mBWWN8",
+        "review_pdVtYw",
         "review_TKNC48"
       ],
       "custom_css": [
