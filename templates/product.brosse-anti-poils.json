@@ -315,6 +315,15 @@
             "row_content": "<p>Oui, la brosse Meowtix™ est parfaitement adaptée à tous types de tissus, y compris les canapés, vêtements et tapis. Elle utilise l’électricité statique pour attirer les poils d'animaux sans endommager les surfaces, offrant une solution de nettoyage douce mais efficace.</p>"
           }
         },
+        "frequently_asked_question_tmJCyE": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "",
+            "heading": "Peut-on l'utiliser sur les vêtements aussi ?",
+            "row_content": "<p>Oui, il est conçu pour être polyvalent et peut aussi être utilisé sur les vêtements pour enlever les poils d’animaux.</p>"
+          }
+        },
         "frequently_asked_question_M3fG6F": {
           "type": "frequently_asked_question",
           "settings": {
@@ -342,15 +351,6 @@
             "row_content": "<p>La brosse Meowtix™ ne nécessite aucun produit chimique ou consommable, ce qui le rend beaucoup plus respectueux de l'environnement. Vous évitez ainsi des déchets inutiles tout en profitant d'une efficacité durable.</p>"
           }
         },
-        "frequently_asked_question_kTahBU": {
-          "type": "frequently_asked_question",
-          "settings": {
-            "icon": "none",
-            "custom_icon": "",
-            "heading": "Est-ce que le rouleau est vraiment économique sur le long terme ?",
-            "row_content": "<p>Oui, en utilisant le rouleau Meowtix™, vous réduisez vos dépenses en rouleaux jetables et autres produits de nettoyage. En plus, sa durabilité et son efficacité vous feront économiser de l'argent au fil du temps.</p>"
-          }
-        },
         "frequently_asked_question_CtMEzw": {
           "type": "frequently_asked_question",
           "settings": {
@@ -359,16 +359,26 @@
             "heading": "Proposez-vous des retours ou des échanges ?",
             "row_content": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
           }
+        },
+        "frequently_asked_question_rjBx9f": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "",
+            "heading": "Quelle est la durée de vie de la brosse Meowtix™ ?",
+            "row_content": "<p>Avec un entretien régulier, notre brosse peut durer plusieurs années, ce qui en fait un excellent investissement à long terme.</p>"
+          }
         }
       },
       "block_order": [
         "frequently_asked_question_jVALmt",
         "frequently_asked_question_U6Gtkk",
+        "frequently_asked_question_tmJCyE",
         "frequently_asked_question_M3fG6F",
         "frequently_asked_question_a4HwE7",
         "frequently_asked_question_9n6tzr",
-        "frequently_asked_question_kTahBU",
-        "frequently_asked_question_CtMEzw"
+        "frequently_asked_question_CtMEzw",
+        "frequently_asked_question_rjBx9f"
       ],
       "settings": {
         "heading": "QUESTIONS FRÉQUENTES",
