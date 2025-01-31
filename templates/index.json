@@ -247,14 +247,6 @@
             "rating": 5
           }
         },
-        "review_iD3qWT": {
-          "type": "review",
-          "settings": {
-            "name": "Laura.J",
-            "review_text": "Si vous avez un chat, vous savez très bien de quoi je parle : les poils partout ! Ce rouleau m’a sauvé la vie. Fini de me battre pour enlever les poils, il est super rapide et efficace. Et en plus, il est facile à emporter partout. Je suis vraiment ravi !",
-            "rating": 5
-          }
-        },
         "review_aqQKDz": {
           "type": "review",
           "settings": {
@@ -268,6 +260,14 @@
           "settings": {
             "name": "Véronique.C",
             "review_text": "J'en avais marre de devoir acheter des rouleaux jetables tout le temps. Celui-ci est une vraie révolution ! Il est super efficace et surtout réutilisable. Finis les achats incessants je ne reviendrai plus jamais en arrière !",
+            "rating": 5
+          }
+        },
+        "review_iD3qWT": {
+          "type": "review",
+          "settings": {
+            "name": "Laura.J",
+            "review_text": "Si vous avez un chat, vous savez très bien de quoi je parle : les poils partout ! Ce rouleau m’a sauvé la vie. Fini de me battre pour enlever les poils, il est super rapide et efficace. Et en plus, il est facile à emporter partout. Je suis vraiment ravi !",
             "rating": 5
           }
         },
@@ -307,9 +307,9 @@
       "block_order": [
         "review_DyTfgX",
         "review_FLb3tf",
-        "review_iD3qWT",
         "review_aqQKDz",
         "review_b68KqW",
+        "review_iD3qWT",
         "review_9enW39",
         "review_mBWWN8",
         "review_pdVtYw",
