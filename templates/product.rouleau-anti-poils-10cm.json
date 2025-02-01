@@ -87,8 +87,8 @@
     "custom_html_9gJT6U": {
       "type": "custom-html",
       "settings": {
-        "subheading": "Your subheading",
-        "title": "Your title",
+        "subheading": "",
+        "title": "",
         "html": "<div data-rapi-id=\"rapi_62d09c5acaa41c\"></div>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
