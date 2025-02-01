@@ -316,6 +316,16 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "product_recommendations_GrNEzW": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "VOUS pourriez aimer",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "otsb_faq_1_kADVtm": {
       "type": "otsb-faq-1",
       "blocks": {
@@ -439,6 +449,7 @@
     "custom_liquid_CWGQWQ",
     "gallery_Gr6UFf",
     "custom_html_FfQLCJ",
+    "product_recommendations_GrNEzW",
     "otsb_faq_1_kADVtm"
   ]
 }
