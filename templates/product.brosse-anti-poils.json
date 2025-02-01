@@ -21,6 +21,10 @@
             "size_chart_page": ""
           }
         },
+        "quantity_selector_f7xajP": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -67,6 +71,7 @@
       },
       "block_order": [
         "variant_picker_RrWFcA",
+        "quantity_selector_f7xajP",
         "buy_buttons",
         "liquid_aF4CFG",
         "liquid_TUAibp",
