@@ -242,13 +242,11 @@
     },
     "custom_liquid_6GketA": {
       "type": "custom-liquid",
-      "custom_css": [
-        ".center-text {text-align: center; /* Centre le texte horizontalement */ font-size: 24px; /* Ajustez la taille de la police si nécessaire */ font-weight: bold; /* Pour rendre le texte en gras */ color: #000; /* Couleur du texte, ajustez selon vos besoins */}"
-      ],
+      "custom_css": [],
       "settings": {
         "subheading": "",
         "title": "",
-        "liquid": "<div data-rapi-id=\"rapi_62d09c5acaa41c\"></div>\n<div class=\"center-text\">\n  PROFITEZ DE L'OFFRE\n</div>",
+        "liquid": "<div data-rapi-id=\"rapi_62d09c5acaa41c\"></div>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
