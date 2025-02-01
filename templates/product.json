@@ -242,6 +242,9 @@
     },
     "custom_liquid_6GketA": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".center-text {text-align: center; /* Centre le texte horizontalement */ font-size: 24px; /* Ajustez la taille de la police si nécessaire */ font-weight: bold; /* Pour rendre le texte en gras */ color: #000; /* Couleur du texte, ajustez selon vos besoins */}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
