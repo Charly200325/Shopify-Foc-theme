@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_LRNTWR": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Affichage de la note, des étoiles et du nombre d'avis sur la même ligne -->\n<p style=\"font-size: 18px; font-weight: bold; color: #333; display: flex; align-items: center; white-space: nowrap;\">\n  <span>4.4/5</span> \n  <span style=\"font-size: 20px; color: #000; margin-left: 8px;\">★★★★☆</span>\n  <span style=\"margin-left: 12px; color: #333;\">(+129 Avis Satisfaits)</span>\n</p>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -21,12 +27,6 @@
             "atc_button_text_color": "#ffffff",
             "buy_now_button_background": "#f7aea6",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
-          }
-        },
-        "liquid_LRNTWR": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!-- Affichage de la note, des étoiles et du nombre d'avis sur la même ligne -->\n<p style=\"font-size: 18px; font-weight: bold; color: #333; display: flex; align-items: center; white-space: nowrap;\">\n  <span>4.4/5</span> \n  <span style=\"font-size: 20px; color: #000; margin-left: 8px;\">★★★★☆</span>\n  <span style=\"margin-left: 12px; color: #333;\">(+129 Avis Satisfaits)</span>\n</p>"
           }
         },
         "liquid_aF4CFG": {
@@ -63,8 +63,8 @@
         }
       },
       "block_order": [
-        "buy_buttons",
         "liquid_LRNTWR",
+        "buy_buttons",
         "liquid_aF4CFG",
         "liquid_TUAibp",
         "liquid_ywPg9B",
