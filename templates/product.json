@@ -227,6 +227,9 @@
     },
     "custom_html_AH9jLC": {
       "type": "custom-html",
+      "custom_css": [
+        "h2 {font-weight:bold !important}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
