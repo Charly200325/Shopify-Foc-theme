@@ -316,6 +316,16 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "product_recommendations_AaxMTt": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "Vous pourriez aimer",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "otsb_faq_1_kADVtm": {
       "type": "otsb-faq-1",
       "blocks": {
@@ -448,6 +458,7 @@
     "custom_html_AH9jLC",
     "gallery_Gr6UFf",
     "custom_html_FfQLCJ",
+    "product_recommendations_AaxMTt",
     "otsb_faq_1_kADVtm"
   ]
 }
