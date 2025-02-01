@@ -84,18 +84,6 @@
       "type": "product-content",
       "settings": {}
     },
-    "custom_html_9gJT6U": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<div data-rapi-id=\"rapi_62d09c5acaa41c\"></div>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "custom_liquid_99kJm8": {
       "type": "custom-liquid",
       "settings": {
@@ -306,6 +294,18 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "custom_html_9gJT6U": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div data-rapi-id=\"rapi_62d09c5acaa41c\"></div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "otsb_faq_1_kADVtm": {
       "type": "otsb-faq-1",
       "blocks": {
@@ -418,7 +418,6 @@
   "order": [
     "main",
     "product-content",
-    "custom_html_9gJT6U",
     "custom_liquid_99kJm8",
     "ss_waves_WpqCx6",
     "rich_text_btdzw7",
@@ -429,6 +428,7 @@
     "custom_html_AH9jLC",
     "gallery_Gr6UFf",
     "custom_html_FfQLCJ",
+    "custom_html_9gJT6U",
     "otsb_faq_1_kADVtm"
   ]
 }
