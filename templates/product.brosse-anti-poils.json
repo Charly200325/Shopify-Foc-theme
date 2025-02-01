@@ -259,18 +259,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "custom_html_QabYNk": {
-      "type": "custom-html",
-      "settings": {
-        "subheading": "Your subheading",
-        "title": "Your title",
-        "html": "<div data-rapi-id=\"rapi_62d09c5acaa41c\"></div>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "gallery_Gr6UFf": {
       "type": "gallery",
       "blocks": {
@@ -451,7 +439,6 @@
     "image_with_text_9kYCcc",
     "custom_html_JN4L7M",
     "custom_html_AH9jLC",
-    "custom_html_QabYNk",
     "gallery_Gr6UFf",
     "custom_html_FfQLCJ",
     "otsb_faq_1_kADVtm"
