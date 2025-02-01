@@ -209,12 +209,12 @@
     "ss_wave_2_FGDCVm": {
       "type": "ss-wave-2",
       "settings": {
-        "wave_height": 120,
-        "wave_height_mobile": 30,
+        "wave_height": 86,
+        "wave_height_mobile": 26,
         "wave_animation": true,
         "wave_rotate": false,
         "wave_color": "#d0e5d5",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
