@@ -342,12 +342,12 @@
         "border_thickness": 0
       }
     },
-    "custom_liquid_G9XJbQ": {
-      "type": "custom-liquid",
+    "custom_html_bGX7ih": {
+      "type": "custom-html",
       "settings": {
-        "subheading": "",
-        "title": "",
-        "liquid": "<div data-rapi-id=\"rapi_62d09c5acaa41c\"></div>",
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<div data-rapi-id=\"rapi_62d09c5acaa41c\"></div>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -551,7 +551,7 @@
     "ss_wave_2_rGfzAj",
     "avisshalla_pGqMbg",
     "ss_wave_2_KQjH8R",
-    "custom_liquid_G9XJbQ",
+    "custom_html_bGX7ih",
     "faq_FjwdyD",
     "otsb_faq_1_Ct8tF8"
   ]
