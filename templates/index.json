@@ -182,7 +182,7 @@
         "title": "98%",
         "content": "<h1><strong>De nos clients en Europe</strong></h1><p>sont ravis par l’efficacité de nos rouleaux, qui élimine les poils en un seul geste. Leur expérience révèle une satisfaction exceptionnelle, avec une note de 98 % attribuée pour la simplicité et l'efficacité de nos rouleaux.</p>",
         "button_text": "DÉCOUVRIR",
-        "button_link": "",
+        "button_link": "shopify://collections/nos-rouleaux",
         "background_type": "full_width",
         "text_width": "medium",
         "text_position": "center",
