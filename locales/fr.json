@@ -98,7 +98,7 @@
       "empty": "Votre panier est vide",
       "start_shopping": "Explorer nos produits",
       "free_shipping": "Vous êtes éligible à l'envoi gratuit",
-      "free_shipping_remaining_html": "livraison gratuite !",
+      "free_shipping_remaining_html": "Dépensez {{ remaining_amount }} de plus et obtenez la livraison gratuite !",
       "free": "Gratuit !",
       "no_more_stock": "Plus de stock",
       "shipping_tax_note": "Frais d'envoi et taxe calculés à la caisse",
