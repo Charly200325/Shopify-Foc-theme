@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_FUcEk4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Affichage de la note, des étoiles et du nombre d'avis sur la même ligne -->\n<p style=\"font-size: 18px; font-weight: bold; color: #333; display: flex; align-items: center; white-space: nowrap;\">\n  <span>4.2/5</span> \n  <span style=\"font-size: 20px; color: #000; margin-left: 8px;\">★★★★☆</span>\n  <span style=\"margin-left: 12px; color: #333;\">(+178 Avis Satisfaits)</span>\n</p>"
+          }
+        },
         "variant_picker_RrWFcA": {
           "type": "variant_picker",
           "settings": {
@@ -70,6 +76,7 @@
         }
       },
       "block_order": [
+        "liquid_FUcEk4",
         "variant_picker_RrWFcA",
         "quantity_selector_f7xajP",
         "buy_buttons",
