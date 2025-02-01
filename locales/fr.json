@@ -434,7 +434,7 @@
     "general": {
       "store_owner": "Gérant de la boutique ?",
       "login": "Se connecter",
-      "powered_by": "Cette boutique sera propulsée par",
+      "powered_by": " ",
       "enter_password": "Entrer le mot de passe"
     },
     "password": {
