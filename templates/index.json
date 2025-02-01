@@ -206,18 +206,18 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "ss_wave_2_rGfzAj": {
+    "ss_wave_2_FGDCVm": {
       "type": "ss-wave-2",
       "settings": {
-        "wave_height": 66,
+        "wave_height": 120,
         "wave_height_mobile": 30,
         "wave_animation": true,
         "wave_rotate": false,
-        "wave_color": "#cfe5d4",
-        "background_color": "#ffffff",
+        "wave_color": "#d0e5d5",
+        "background_color": "#FFFFFF",
         "background_gradient": "",
         "border_color": "#000000",
-        "margin_top": 16,
+        "margin_top": 0,
         "margin_bottom": 0,
         "padding_top": 0,
         "padding_bottom": 0,
@@ -536,7 +536,7 @@
     "slideshow_3Y7Leh",
     "rich_text_EpMFPf",
     "custom_html_yAMyWz",
-    "ss_wave_2_rGfzAj",
+    "ss_wave_2_FGDCVm",
     "avisshalla_pGqMbg",
     "ss_wave_2_KQjH8R",
     "faq_FjwdyD",
