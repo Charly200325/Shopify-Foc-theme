@@ -15,7 +15,7 @@
         "liquid_ip8FT7": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- Affichage de la note, des étoiles et du nombre d'avis sur la même ligne -->\n<p style=\"font-size: 18px; font-weight: bold; color: #333; display: flex; align-items: center; white-space: nowrap;\">\n  <span>4.6/5</span> \n  <span style=\"font-size: 20px; color: #000; margin-left: 8px;\">★★★★☆</span>\n  <span style=\"margin-left: 12px; color: #333;\">(+289 Avis Satisfaits)</span>\n</p>"
+            "liquid": "<!-- Affichage de la note, des étoiles et du nombre d'avis sur la même ligne -->\n<p style=\"font-size: 18px; font-weight: bold; color: #333; display: flex; align-items: center; white-space: nowrap;\">\n  <span>4.6/5</span> \n  <span style=\"font-size: 20px; color: #000; margin-left: 8px;\">★★★★☆</span>\n  <span style=\"margin-left: 12px; color: #333;\">(+339 Avis Satisfaits)</span>\n</p>"
           }
         },
         "buy_buttons": {
