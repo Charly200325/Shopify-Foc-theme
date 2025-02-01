@@ -84,12 +84,19 @@
           "settings": {
             "menu": "menu-principal"
           }
+        },
+        "links_hBkwNR": {
+          "type": "links",
+          "settings": {
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
         "newsletter",
         "text",
-        "links"
+        "links",
+        "links_hBkwNR"
       ],
       "settings": {
         "show_payment_icons": true,
