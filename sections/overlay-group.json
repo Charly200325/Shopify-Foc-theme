@@ -27,8 +27,8 @@
     "privacy-banner": {
       "type": "privacy-banner",
       "settings": {
-        "cookie_bar_title": "Cookie policy",
-        "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.</p>"
+        "cookie_bar_title": "Nous accordons une grande importance à votre vie privée",
+        "cookie_bar_content": "<p>Nous utilisons des cookies et d’autres technologies pour personnaliser votre expérience, à des fins commerciales et d’analyses. Pour en savoir plus, consultez notre  <a href=\"https://meowtix.com/policies/privacy-policy\" target=\"_blank\">politique de confidentialité.</a></p>"
       }
     }
   },
