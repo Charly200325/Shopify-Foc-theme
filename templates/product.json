@@ -32,12 +32,6 @@
             "liquid": "<style>\n  .stock-warning {\n    font-size: 16px;\n    font-weight: bold;\n    color: red;\n    display: flex;\n    align-items: center;\n  }\n\n  .stock-dot {\n    width: 14px;\n    height: 14px;\n    background-color: #d60000;\n    border-radius: 50%;\n    margin-right: 8px;\n    animation: blink 0.7s infinite alternate;\n  }\n\n  @keyframes blink {\n    0% { background-color: #d60000; }\n    50% { background-color: #ff4500; }\n    100% { background-color: #ff0000; }\n  }\n</style>\n\n<div class=\"stock-warning\">\n  <span class=\"stock-dot\"></span>\n  <span id=\"stock-message\">Chargement du stock...</span>\n</div>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    let stock = 7; // Valeur initiale du stock\n    let firstUpdateDone = false;\n\n    function updateStockMessage() {\n      let stockMessage = document.getElementById(\"stock-message\");\n      \n      if (stockMessage) {\n        stockMessage.textContent = \"Plus que \" + stock + \" articles en stock.\";\n        \n        // Si le stock est 7, après une minute, il passe à 6\n        if (!firstUpdateDone) {\n          setTimeout(function() {\n            stock = 6;  // Passer à 6 après 1 minute\n            updateStockMessage();\n            firstUpdateDone = true;\n          }, 60000); // 1 minute (60000 ms)\n        } else if (stock > 1) {\n          stock--; // Simule une baisse de stock chaque 10 minutes\n        } else {\n          stock = 7;  // Repart à 7 lorsque le stock atteint 1\n          updateStockMessage();\n        }\n      }\n    }\n\n    updateStockMessage(); // Mise à jour immédiate\n    setInterval(updateStockMessage, 600000); // Mise à jour toutes les 10 minutes après 1 minute\n  });\n</script>"
           }
         },
-        "liquid_ChKYDm": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div data-rapi-id=\"rapi_62d50ba6a63304\"></div>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -74,18 +68,24 @@
           "settings": {
             "liquid": "<style>\n  .section-content {\n    display: none;\n    padding: 15px;\n    background-color: #ffffff; /* Fond blanc */\n    margin-top: 10px;\n    text-align: left; /* Aligner le texte à gauche */\n    line-height: 1.6; /* Augmenter l'espacement entre les lignes */\n  }\n\n  .toggle-button {\n    cursor: pointer;\n    font-weight: bold;\n    color: #333;\n    padding: 10px;\n    background-color: transparent; /* Supprimer la couleur grise */\n    border: 1px solid #ddd; /* Ajout d'une bordure légère */\n    text-align: left;\n    width: 100%;\n    border-radius: 5px;\n    margin-bottom: 10px;\n  }\n\n  .toggle-button:hover {\n    background-color: #f3f3f3; /* Légère couleur de survol pour l'interaction */\n  }\n\n  .toggle-symbol {\n    font-weight: bold;\n    float: right;\n  }\n\n  ul {\n    padding-left: 20px; /* Ajouter un petit espace à gauche pour les puces */\n  }\n\n  li {\n    margin-bottom: 15px; /* Espacer les éléments de la liste */\n  }\n\n  .section-content p {\n    margin-top: 15px; /* Ajouter de l'espace entre le texte de description et la première liste */\n  }\n</style>\n\n<div class=\"reductible-section\">\n  <button class=\"toggle-button\" onclick=\"toggleContent('section-1')\">\n    Description Produit\n    <span id=\"symbol-1\" class=\"toggle-symbol\">+</span>\n  </button>\n  <div id=\"section-1\" class=\"section-content\">\n    \n      <strong>Rouleau Réutilisable Meowtix™</strong> : Un accessoire incontournable pour tous les amoureux des animaux et soucieux du bien-être de leur foyer ! Notre rouleau permet d’éliminer efficacement les poils de vos compagnons à quatre pattes en un geste simple et rapide. Découvrez comment il va changer votre quotidien :<ul>\n      <li><strong>Élimination rapide et efficace des poils</strong> : Grâce à sa conception innovante, ce rouleau retire facilement les poils de votre canapé, de vos vêtements et de vos surfaces. Vous retrouverez un intérieur propre, sans effort.</li>\n      <li><strong>Eco-responsable et réutilisable</strong> : Fini les rouleaux jetables ! Ce modèle est conçu pour être utilisé encore et encore simplement en le passant sous l'eau froide, réduisant ainsi votre impact environnemental tout en restant performant.</li>\n      <li><strong>Pratique et facile à utiliser</strong> : Compact et léger, il vous accompagne partout pour une utilisation instantanée, idéal pour les urgences avant une sortie ou un visiteur imprévu.</li>\n      <li><strong>Satisfaction garantie</strong> : Fini les moments stressants à courir après des poils tenaces. Notre rouleau offre une solution simple et rapide pour garder votre espace propre tout en prenant soin de vos animaux.</li>\n    </ul>\n  </div>\n</div>\n\n<div class=\"reductible-section\">\n  <button class=\"toggle-button\" onclick=\"toggleContent('section-2')\">\n    Livraison & Retour\n    <span id=\"symbol-2\" class=\"toggle-symbol\">+</span>\n  </button>\n  <div id=\"section-2\" class=\"section-content\">\n    <p><strong>Délais de livraison :</strong> Vos commandes sont généralement livrées sous 5 à 7 jours ouvrables.</p>\n    <p><strong>Politique de retour :</strong> Nous offrons une politique de retour de 30 jours. Si vous n'êtes pas entièrement satisfait, vous pouvez retourner les articles non utilisés dans leur emballage d'origine pour un remboursement ou un échange.</p>\n    <p><strong>Votre satisfaction est notre priorité :</strong> Nous nous engageons à vous offrir un service de qualité. Si vous avez des questions ou des préoccupations, notre équipe est là pour vous assister.</p>\n  </div>\n</div>\n\n<script>\n  function toggleContent(sectionId) {\n    var content = document.getElementById(sectionId);\n    var symbol = document.getElementById('symbol-' + sectionId.split('-')[1]);\n    \n    // Fermer toutes les sections ouvertes\n    var allSections = document.querySelectorAll('.section-content');\n    allSections.forEach(function(section) {\n      if (section !== content) {\n        section.style.display = \"none\";\n      }\n    });\n\n    // Basculer l'affichage de la section sélectionnée\n    if (content.style.display === \"none\" || content.style.display === \"\") {\n      content.style.display = \"block\";\n      symbol.innerHTML = \"-\"; // Changer en moins lorsque la section est ouverte\n    } else {\n      content.style.display = \"none\";\n      symbol.innerHTML = \"+\"; // Changer en plus lorsque la section est fermée\n    }\n  }\n</script>"
           }
+        },
+        "liquid_9cEAjG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
         }
       },
       "block_order": [
         "liquid_jWH9MR",
         "liquid_ik7U7x",
         "liquid_c4CbAe",
-        "liquid_ChKYDm",
         "buy_buttons",
         "liquid_aF4CFG",
         "liquid_ywPg9B",
         "liquid_A6N9EV",
-        "liquid_htiRXC"
+        "liquid_htiRXC",
+        "liquid_9cEAjG"
       ],
       "settings": {
         "show_vendor": false,
