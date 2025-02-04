@@ -103,6 +103,18 @@
         "transition_effect": "slide"
       }
     },
+    "custom_liquid_idByGi": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "",
+        "liquid": "<div data-rapi-id=\"rapi_62d50ba6a63304\"></div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "product-content": {
       "type": "product-content",
       "settings": {}
@@ -464,6 +476,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_idByGi",
     "product-content",
     "ss_waves_WpqCx6",
     "rich_text_btdzw7",
