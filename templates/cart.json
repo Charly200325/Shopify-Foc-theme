@@ -42,7 +42,7 @@
     "cart-recommendations": {
       "type": "cart-recommendations",
       "settings": {
-        "title": "You may also like"
+        "title": "Vous pourriez aimer"
       }
     }
   },
