@@ -13,14 +13,13 @@
   "sections": {
     "newsletter-popup": {
       "type": "newsletter-popup",
-      "disabled": true,
       "settings": {
         "apparition_delay": 5,
         "show_only_on_index": true,
         "show_only_for_visitors": true,
         "show_only_once": true,
         "image": "shopify://shop_images/istockphoto-2171953488-612x612.jpg",
-        "image_position": "left",
+        "image_position": "right",
         "title": "S'inscrire pour bénéficier de 10% de réduction sur votre première commande !",
         "content": ""
       }
