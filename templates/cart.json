@@ -21,11 +21,16 @@
           "settings": {
             "open_by_default": false
           }
+        },
+        "essential_upsell_app_block_6kLTPE": {
+          "type": "shopify://apps/essential-upsell/blocks/app-block/50627fd9-24fd-4250-8614-accc12826d80",
+          "settings": {}
         }
       },
       "block_order": [
         "totals",
-        "order_note"
+        "order_note",
+        "essential_upsell_app_block_6kLTPE"
       ],
       "settings": {
         "show_payment_methods": true,
