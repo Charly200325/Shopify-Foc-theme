@@ -46,12 +46,24 @@
             "button_text": "",
             "button_link": ""
           }
+        },
+        "message_iQjayH": {
+          "type": "message",
+          "settings": {
+            "text": "Profitez de -10% sur votre première commande en vous inscrivant à notre newsletter !",
+            "learn_more_text": "",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": "shopify://pages/suivre-ma-commande"
+          }
         }
       },
       "block_order": [
         "message_fE4467",
         "message_B9iftf",
-        "message_RkEmz4"
+        "message_RkEmz4",
+        "message_iQjayH"
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
