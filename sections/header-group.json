@@ -49,6 +49,7 @@
         },
         "message_iQjayH": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Profitez de -10% sur votre première commande en vous inscrivant à notre newsletter !",
             "learn_more_text": "",
