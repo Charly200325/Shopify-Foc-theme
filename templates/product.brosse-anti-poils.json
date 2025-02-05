@@ -26,6 +26,7 @@
         },
         "variant_picker_RrWFcA": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "selector_mode": "dropdown",
@@ -35,6 +36,7 @@
         },
         "quantity_selector_f7xajP": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
