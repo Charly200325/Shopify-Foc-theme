@@ -1,6 +1,413 @@
+<koala-quantity-breaks-embed id="koala--embed-qb-AYUkxbm05Wmkyd3VlS__4143866229958350875_cm6vi76rx8d1ececbbt2gyo21" data-block-id="AYUkxbm05Wmkyd3VlS__4143866229958350875_cm6vi76rx8d1ececbbt2gyo21" koala-embedded="true" class="koala-deal koala-styles-AYUkxbm05Wmkyd3VlS__4143866229958350875_cm6vi76rx8d1ececbbt2gyo21">                        <div class="koala-deal__title">     2 Achetés = 1 MINI OFFERT   </div>       <div class="koala-deal__content">                  <ul class="koala-deal__tiers__list">                                                                                                                                                              <li class="koala-deal__tiers__list-item tier-9b04c0a5-8339-49df-91e2-9ffca9b03e6d "><input autocomplete="off" id="koala-contract-9b04c0a5-8339-49df-91e2-9ffca9b03e6dAYUkxbm05Wmkyd3VlS__4143866229958350875_cm6vi76rx8d1ececbbt2gyo21" class="koala-deal__tier__input koala-contract-9b04c0a5-8339-49df-91e2-9ffca9b03e6d" type="radio" name="koala-dealAYUkxbm05Wmkyd3VlS__4143866229958350875_cm6vi76rx8d1ececbbt2gyo21" autofilled=""><label for="koala-contract-9b04c0a5-8339-49df-91e2-9ffca9b03e6dAYUkxbm05Wmkyd3VlS__4143866229958350875_cm6vi76rx8d1ececbbt2gyo21" class="koala-deal__tier">                                 <div class="koala-deal__tier__body needsclick"><div class="koala-deal__tier__content-container needsclick">                                                                                       {% if section.settings.image1 != blank -%}
+        {{- section.settings.image1 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}                                                           <div class="koala-deal__tier__description-container needsclick">                                                                     <div class="koala-deal__tier__title-container needsclick">                                                                                     <div class="koala-deal__tier__title needsclick">                               1 Rouleau Réutilisable                             </div>                                                                               </div>                                                                                        <div class="koala-deal__tier__subtitle needsclick">                         +Livraison GRATUITE                       </div>                                        </div></div><div class="koala-deal__tier__pricing-container needsclick"><div class="koala-deal__tier__price needsclick">14,95€</div><div class="koala-deal__tier__regular-price needsclick koala-deal__tier__regular-price--hidden">14,95€</div></div></div>                                                            <ul style="" data-contract-id="9b04c0a5-8339-49df-91e2-9ffca9b03e6d" class="koala-deal__tier__variant-groups needsclick">                                    <li class="koala-deal__tier__variant-group needsclick"><div class="koala-deal__tier__variant-group-number needsclick">#1</div><ul class="koala-deal__tier__variants needsclick">                                                <li class="koala-deal__tier__variant needsclick">                                                        <koala-dropdown scrollable="" name="Couleur :" name-visible="true" selected="Vert" options="[                                                                    {&quot;label&quot;: &quot;Vert&quot;,&quot;value&quot;: &quot;Vert&quot;},                                                                    {&quot;label&quot;: &quot;Blanc&quot;,&quot;value&quot;: &quot;Blanc&quot;}                                                                  ]">
+      
+      <style>
+       koala-dropdown {
+          display: inline-block;
+          width: 100%;
+        }
+       koala-dropdown .koala-dropdown-wrapper {
+          position: relative;
+       }
+       koala-dropdown .koala-dropdown-name {
+          max-width: 100%;
+          overflow-x: hidden;
+          text-overflow: ellipsis;
+          font-size: 12px;
+       }
+       koala-dropdown .koala-dropdown {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          cursor: pointer;
+          padding: 4px 6px;
+          font-family: inherit;
+          border-radius: 4px;
+          border: 1px solid #CCC;
+          background: #FFF;
+        }
+       koala-dropdown .koala-dropdown.koala-disabled {
+          background: #f5f5f5;
+          cursor: not-allowed;
+          color: #999;
+          border-color: #ddd;
+        }
+       koala-dropdown .koala-dropdown-label {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          color: #303030;
+          font-feature-settings: 'liga' off, 'clig' off;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+       koala-dropdown .koala-dropdown.koala-disabled .koala-dropdown-label {
+          color: #999;
+        }
+       koala-dropdown .koala-dropdown-chevron {
+          /*transition: transform 0.3s;*/
+          display: flex;
+          align-self: center;
+        }
+       koala-dropdown .koala-dropdown.koala-disabled .koala-dropdown-chevron svg path {
+          stroke: #999;
+        }
+       koala-dropdown .koala-open {
+            display: flex;
+        }
+       koala-dropdown .koala-dropdown.koala-open-bottom {
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown.koala-open-top {
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown-wrapper:has(.koala-open) .koala-dropdown-chevron {
+          /*transform: rotate(180deg);*/
+        }
+
+       koala-dropdown .koala-dropdown-list {
+          display: none;
+          position: absolute;
+          flex-direction: column;
+          background-color: white;
+          max-height: 250px;
+          /*min-width: max-content!important;*/
+          overflow-y: auto;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          -webkit-overflow-scrolling: touch;
+          z-index: 99999;
+        }
+       koala-dropdown .koala-dropdown-list.koala-open {
+          display: flex;
+        }
+       koala-dropdown .koala-dropdown-list.koala-open-bottom {
+          box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown-list.koala-open-top {
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item:not(:last-child) {
+          border-bottom: 1px solid #c0c0c0;
+        }
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item {
+          padding: 10px;
+          cursor: pointer;
+          word-break: break-word;
+          line-height: 1.2;
+          overflow: hidden;
+          color: #303030;
+        }
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item:hover,
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item.koala-selected {
+          background-color: #f0f0f0;
+        }
+      </style>
+    
+      <div class="koala-dropdown-wrapper">
+        <div class="koala-dropdown-name"><span title="Couleur :">Couleur :</span></div>
+        <div class="koala-dropdown" tabindex="0">
+          <span class="koala-dropdown-label">Vert</span>
+          <span class="koala-dropdown-chevron">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M5 7.5L10 12.5L15 7.5" stroke="#303030" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </span>
+        </div>
+        <div class="koala-dropdown-list"><div class="koala-dropdown-list-content"><div class="koala-dropdown-item" data-value="Vert">Vert</div><div class="koala-dropdown-item" data-value="Blanc">Blanc</div></div></div>
+      </div>
+    </koala-dropdown>                                                    </li>                                            </ul></li>                                </ul>                            </label></li>                                                                                                                                                              <li class="koala-deal__tiers__list-item tier-e33f6dda-b75a-4f13-a043-5ce7655a78c5 "><input autocomplete="off" id="koala-contract-e33f6dda-b75a-4f13-a043-5ce7655a78c5AYUkxbm05Wmkyd3VlS__4143866229958350875_cm6vi76rx8d1ececbbt2gyo21" class="koala-deal__tier__input koala-contract-e33f6dda-b75a-4f13-a043-5ce7655a78c5" type="radio" name="koala-dealAYUkxbm05Wmkyd3VlS__4143866229958350875_cm6vi76rx8d1ececbbt2gyo21" checked="checked" autofilled=""><label for="koala-contract-e33f6dda-b75a-4f13-a043-5ce7655a78c5AYUkxbm05Wmkyd3VlS__4143866229958350875_cm6vi76rx8d1ececbbt2gyo21" class="koala-deal__tier">                                                    <div class="koala-ribbon koala-top-ribbon"><span title="PROMO FLASH DAY">PROMO FLASH DAY</span></div>                                                 <div class="koala-deal__tier__body needsclick"><div class="koala-deal__tier__content-container needsclick">                                                                                                                {% if section.settings.image2 != blank -%}
+        {{- section.settings.image2 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}                                                                                  <div class="koala-deal__tier__description-container needsclick">                                                                     <div class="koala-deal__tier__title-container needsclick">                                                                                     <div class="koala-deal__tier__title needsclick">                               2 Rouleaux Réutilisables + 1 Mini OFFERT                             </div>                                                                               </div>                                                                                        <div class="koala-deal__tier__subtitle needsclick">                         +Livraison GRATUITE                       </div>                                        </div></div><div class="koala-deal__tier__pricing-container needsclick"><div class="koala-deal__tier__price needsclick">29,90€</div><div class="koala-deal__tier__regular-price needsclick koala-deal__tier__regular-price--hidden">29,90€</div></div></div>                                                            <ul style="" data-contract-id="e33f6dda-b75a-4f13-a043-5ce7655a78c5" class="koala-deal__tier__variant-groups needsclick">                                    <li class="koala-deal__tier__variant-group needsclick"><div class="koala-deal__tier__variant-group-number needsclick">#1</div><ul class="koala-deal__tier__variants needsclick">                                                <li class="koala-deal__tier__variant needsclick">                                                        <koala-dropdown scrollable="" name="Couleur :" name-visible="true" selected="Vert" options="[                                                                    {&quot;label&quot;: &quot;Vert&quot;,&quot;value&quot;: &quot;Vert&quot;},                                                                    {&quot;label&quot;: &quot;Blanc&quot;,&quot;value&quot;: &quot;Blanc&quot;}                                                                  ]">
+      
+      <style>
+       koala-dropdown {
+          display: inline-block;
+          width: 100%;
+        }
+       koala-dropdown .koala-dropdown-wrapper {
+          position: relative;
+       }
+       koala-dropdown .koala-dropdown-name {
+          max-width: 100%;
+          overflow-x: hidden;
+          text-overflow: ellipsis;
+          font-size: 12px;
+       }
+       koala-dropdown .koala-dropdown {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          cursor: pointer;
+          padding: 4px 6px;
+          font-family: inherit;
+          border-radius: 4px;
+          border: 1px solid #CCC;
+          background: #FFF;
+        }
+       koala-dropdown .koala-dropdown.koala-disabled {
+          background: #f5f5f5;
+          cursor: not-allowed;
+          color: #999;
+          border-color: #ddd;
+        }
+       koala-dropdown .koala-dropdown-label {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          color: #303030;
+          font-feature-settings: 'liga' off, 'clig' off;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+       koala-dropdown .koala-dropdown.koala-disabled .koala-dropdown-label {
+          color: #999;
+        }
+       koala-dropdown .koala-dropdown-chevron {
+          /*transition: transform 0.3s;*/
+          display: flex;
+          align-self: center;
+        }
+       koala-dropdown .koala-dropdown.koala-disabled .koala-dropdown-chevron svg path {
+          stroke: #999;
+        }
+       koala-dropdown .koala-open {
+            display: flex;
+        }
+       koala-dropdown .koala-dropdown.koala-open-bottom {
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown.koala-open-top {
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown-wrapper:has(.koala-open) .koala-dropdown-chevron {
+          /*transform: rotate(180deg);*/
+        }
+
+       koala-dropdown .koala-dropdown-list {
+          display: none;
+          position: absolute;
+          flex-direction: column;
+          background-color: white;
+          max-height: 250px;
+          /*min-width: max-content!important;*/
+          overflow-y: auto;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          -webkit-overflow-scrolling: touch;
+          z-index: 99999;
+        }
+       koala-dropdown .koala-dropdown-list.koala-open {
+          display: flex;
+        }
+       koala-dropdown .koala-dropdown-list.koala-open-bottom {
+          box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown-list.koala-open-top {
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item:not(:last-child) {
+          border-bottom: 1px solid #c0c0c0;
+        }
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item {
+          padding: 10px;
+          cursor: pointer;
+          word-break: break-word;
+          line-height: 1.2;
+          overflow: hidden;
+          color: #303030;
+        }
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item:hover,
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item.koala-selected {
+          background-color: #f0f0f0;
+        }
+      </style>
+    
+      <div class="koala-dropdown-wrapper">
+        <div class="koala-dropdown-name"><span title="Couleur :">Couleur :</span></div>
+        <div class="koala-dropdown" tabindex="0">
+          <span class="koala-dropdown-label">Vert</span>
+          <span class="koala-dropdown-chevron">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M5 7.5L10 12.5L15 7.5" stroke="#303030" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </span>
+        </div>
+        <div class="koala-dropdown-list" style="width: 398px; max-width: 398px;"><div class="koala-dropdown-list-content"><div class="koala-dropdown-item" data-value="Vert">Vert</div><div class="koala-dropdown-item" data-value="Blanc">Blanc</div></div></div>
+      </div>
+    </koala-dropdown>                                                    </li>                                            </ul></li>                                    <li class="koala-deal__tier__variant-group needsclick"><div class="koala-deal__tier__variant-group-number needsclick">#2</div><ul class="koala-deal__tier__variants needsclick">                                                <li class="koala-deal__tier__variant needsclick">                                                        <koala-dropdown scrollable="" name="Couleur :" name-visible="false" selected="Vert" options="[                                                                    {&quot;label&quot;: &quot;Vert&quot;,&quot;value&quot;: &quot;Vert&quot;},                                                                    {&quot;label&quot;: &quot;Blanc&quot;,&quot;value&quot;: &quot;Blanc&quot;}                                                                  ]">
+      
+      <style>
+       koala-dropdown {
+          display: inline-block;
+          width: 100%;
+        }
+       koala-dropdown .koala-dropdown-wrapper {
+          position: relative;
+       }
+       koala-dropdown .koala-dropdown-name {
+          max-width: 100%;
+          overflow-x: hidden;
+          text-overflow: ellipsis;
+          font-size: 12px;
+       }
+       koala-dropdown .koala-dropdown {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          cursor: pointer;
+          padding: 4px 6px;
+          font-family: inherit;
+          border-radius: 4px;
+          border: 1px solid #CCC;
+          background: #FFF;
+        }
+       koala-dropdown .koala-dropdown.koala-disabled {
+          background: #f5f5f5;
+          cursor: not-allowed;
+          color: #999;
+          border-color: #ddd;
+        }
+       koala-dropdown .koala-dropdown-label {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          color: #303030;
+          font-feature-settings: 'liga' off, 'clig' off;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+       koala-dropdown .koala-dropdown.koala-disabled .koala-dropdown-label {
+          color: #999;
+        }
+       koala-dropdown .koala-dropdown-chevron {
+          /*transition: transform 0.3s;*/
+          display: flex;
+          align-self: center;
+        }
+       koala-dropdown .koala-dropdown.koala-disabled .koala-dropdown-chevron svg path {
+          stroke: #999;
+        }
+       koala-dropdown .koala-open {
+            display: flex;
+        }
+       koala-dropdown .koala-dropdown.koala-open-bottom {
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown.koala-open-top {
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown-wrapper:has(.koala-open) .koala-dropdown-chevron {
+          /*transform: rotate(180deg);*/
+        }
+
+       koala-dropdown .koala-dropdown-list {
+          display: none;
+          position: absolute;
+          flex-direction: column;
+          background-color: white;
+          max-height: 250px;
+          /*min-width: max-content!important;*/
+          overflow-y: auto;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          -webkit-overflow-scrolling: touch;
+          z-index: 99999;
+        }
+       koala-dropdown .koala-dropdown-list.koala-open {
+          display: flex;
+        }
+       koala-dropdown .koala-dropdown-list.koala-open-bottom {
+          box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown-list.koala-open-top {
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item:not(:last-child) {
+          border-bottom: 1px solid #c0c0c0;
+        }
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item {
+          padding: 10px;
+          cursor: pointer;
+          word-break: break-word;
+          line-height: 1.2;
+          overflow: hidden;
+          color: #303030;
+        }
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item:hover,
+       koala-dropdown .koala-dropdown-list .koala-dropdown-item.koala-selected {
+          background-color: #f0f0f0;
+        }
+      </style>
+    
+      <div class="koala-dropdown-wrapper">
+        
+        <div class="koala-dropdown" tabindex="0">
+          <span class="koala-dropdown-label">Vert</span>
+          <span class="koala-dropdown-chevron">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M5 7.5L10 12.5L15 7.5" stroke="#303030" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </span>
+        </div>
+        <div class="koala-dropdown-list" style="width: 398px; max-width: 398px;"><div class="koala-dropdown-list-content"><div class="koala-dropdown-item" data-value="Vert">Vert</div><div class="koala-dropdown-item" data-value="Blanc">Blanc</div></div></div>
+      </div>
+    </koala-dropdown>                                                    </li>                                            </ul></li>                                </ul>                                                                                                         <div class="koala-deal__tier__gift-container "><div class="koala-deal__tier__gift-content"><a href="/products/mini-rouleau-reutilisable-meowtix" class="koala-deal__tier__gift-link">{% if section.settings.image3 != blank -%}
+        {{- section.settings.image3 | image_url: width: 1080 | image_tag: class: 'card-img-top', loading: 'lazy' -}}
+    {%- endif %}</a>                                             </div>                                                                 <span class="koala-deal__tier__gift-text">+ Mini rouleau GRATUIT</span></div>                                             </label></li>                                               <li class="koala--hidden koala-deal__block__out-of-stock"><div class="koala-deal__out-of-stock">La quantité dépasse le stock disponible. La quantité disponible peut toujours être ajoutée au panier.</div></li>                </ul>              </div></koala-quantity-breaks-embed>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+    "name": "bundle",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Image 1"
+        },
+        {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Image 2"
+        },
+        {
+            "type": "image_picker",
+            "id": "image3",
+            "label": "Image 3"
+        }
+    ],
+    "presets": [
+        {
+            "name": "bundle"
+        }
+    ]
+}
 {% endschema %}
