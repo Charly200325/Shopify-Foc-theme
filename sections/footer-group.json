@@ -19,8 +19,8 @@
           "settings": {
             "icon": "picto-box",
             "custom_icon_width": 50,
-            "title": "Livraison Gratuite",
-            "content": "<p>Recevez votre commande gratuitement et rapidement ! </p>"
+            "title": "Free Shipping",
+            "content": "<p>Free shipping on orders over £29</p>"
           }
         },
         "item-2": {
