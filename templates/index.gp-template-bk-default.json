@@ -1,0 +1,545 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "order": [
+    "slideshow",
+    "ss_waves_KUFKd8",
+    "rich_text_YVrH7f",
+    "ss_waves_9jMpQx",
+    "featured_collections_n4EAFc",
+    "slideshow_gDR3ic",
+    "slideshow_3Y7Leh",
+    "rich_text_EpMFPf",
+    "custom_html_yAMyWz",
+    "ss_wave_2_FGDCVm",
+    "avisshalla_pGqMbg",
+    "ss_wave_2_KQjH8R",
+    "faq_FjwdyD",
+    "otsb_faq_1_Ct8tF8"
+  ],
+  "sections": {
+    "avisshalla_pGqMbg": {
+      "block_order": [
+        "review_DyTfgX",
+        "review_FLb3tf",
+        "review_aqQKDz",
+        "review_b68KqW",
+        "review_iD3qWT",
+        "review_9enW39",
+        "review_mBWWN8",
+        "review_pdVtYw",
+        "review_TKNC48"
+      ],
+      "blocks": {
+        "review_9enW39": {
+          "settings": {
+            "name": "Fabien.O",
+            "rating": 5,
+            "review_text": "Avec un chien à la maison, impossible d'avoir des vêtements propres... mais ce petit outil fait vraiment la différence ! Il attrape les poils en un rien de temps, et je peux l'emmener partout. Très satisfait !"
+          },
+          "type": "review"
+        },
+        "review_DyTfgX": {
+          "settings": {
+            "name": "Laurent.R",
+            "rating": 5,
+            "review_text": "Depuis que j’ai ce rouleau, je n’ai plus de poils sur mes vêtements. C’était devenu un vrai casse-tête avant. Mais là, c’est simple et rapide. Un produit vraiment pratique et qui fait son job. Je le conseille à tous les propriétaires d’animaux !"
+          },
+          "type": "review"
+        },
+        "review_FLb3tf": {
+          "settings": {
+            "name": "Sonia.C",
+            "rating": 5,
+            "review_text": "Franchement je n'y croyais pas au début... Mais après l'avoir testée sur mon plaid plein de poils j'ai halluciné ! Tout est parti en quelques secondes."
+          },
+          "type": "review"
+        },
+        "review_TKNC48": {
+          "settings": {
+            "name": "Sabine.M",
+            "rating": 5,
+            "review_text": "J'étais un peu sceptique au début, mais franchement, je suis agréablement surpris. Ce rouleau est super efficace, il attrape même les poils les plus récalcitrants de mon chat. Fini de devoir en acheter tout le temps, celui-ci dure et fait vraiment bien le job. Je le recommande sans hésiter !"
+          },
+          "type": "review"
+        },
+        "review_aqQKDz": {
+          "settings": {
+            "name": "Tom.R",
+            "rating": 5,
+            "review_text": "Rien à redire sur l'efficacité du produit. Cette brosse enlève plus de poils que la majorité des autres brosses du marché."
+          },
+          "type": "review"
+        },
+        "review_b68KqW": {
+          "settings": {
+            "name": "Véronique.C",
+            "rating": 5,
+            "review_text": "J'en avais marre de devoir acheter des rouleaux jetables tout le temps. Celui-ci est une vraie révolution ! Il est super efficace et surtout réutilisable. Finis les achats incessants je ne reviendrai plus jamais en arrière !"
+          },
+          "type": "review"
+        },
+        "review_iD3qWT": {
+          "settings": {
+            "name": "Laura.J",
+            "rating": 5,
+            "review_text": "Si vous avez un chat, vous savez très bien de quoi je parle : les poils partout ! Ce rouleau m’a sauvé la vie. Fini de me battre pour enlever les poils, il est super rapide et efficace. Et en plus, il est facile à emporter partout. Je suis vraiment ravi !"
+          },
+          "type": "review"
+        },
+        "review_mBWWN8": {
+          "settings": {
+            "name": "Adeline.D",
+            "rating": 5,
+            "review_text": "Avant, je me retrouvais souvent avec des poils sur mes vêtements en arrivant chez des amis ou en soirée. Maintenant, j’ai ce rouleau toujours sur moi, et en deux secondes, mes fringues sont impeccables ! Il est petit, léger, et franchement ultra pratique. Je ne sors plus sans !"
+          },
+          "type": "review"
+        },
+        "review_pdVtYw": {
+          "settings": {
+            "name": "Armelle.D",
+            "rating": 5,
+            "review_text": "Efficacité redoutable ! Avec 4 chats qui affectionnent particulièrement nos canapés recouverts de lin noir et de coussins en velours, l'entretien était un cauchemar. Cette brosse a changé notre vie. Elle enlève tous les poils en quelques passages, et 2-3 petits aller-retours de droite à gauche et tout les poils vont dans un petit réservoir. Elle est radicale ! Je recommande à 100% !!!"
+          },
+          "type": "review"
+        }
+      },
+      "custom_css": [
+        ".reviews {background-color: #d0e5d5; /* Exemple avec un bleu clair */ padding: 40px 0; text-align: center; position: relative;}"
+      ],
+      "settings": {},
+      "type": "avisshalla"
+    },
+    "custom_html_yAMyWz": {
+      "disabled": true,
+      "settings": {
+        "add_vertical_spacing": true,
+        "background": "rgba(0,0,0,0)",
+        "background_type": "full_width",
+        "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Glowy - Confiance</title>\n    <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;family=Raleway:wght@400;700&amp;display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            font-family: 'Poppins', sans-serif;\n            margin: 0;\n            padding: 0;\n            text-align: center;\n            background-color: #f8f8f8;\n        }\n        .header {\n            margin-top: 30px;\n            font-size: 24px;\n            font-weight: 600;\n            color: #333;\n        }\n        .subheader {\n            font-size: 18px;\n            color: #555;\n            margin-top: 10px;\n            font-weight: 400;\n        }\n        .divider {\n            width: 80%;\n            height: 2px;\n            background-color: #000;\n            margin: 20px auto;\n        }\n        .stats-container {\n            display: flex;\n            justify-content: center;\n            gap: 20px;\n            margin-bottom: 50px;\n            flex-wrap: wrap; /* Permet d'éviter les débordements */\n        }\n        .stat-box {\n            background-color: #f3f3f3; /* Nouvelle couleur */\n            border-radius: 10px;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n            padding: 20px;\n            width: 280px;\n            text-align: center;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            overflow: hidden;\n            height: auto;\n        }\n        .stat-number {\n            font-size: 48px;\n            font-weight: 700;\n            color: #333;\n            margin-bottom: 15px;\n        }\n        .stat-text {\n            font-size: 14px;\n            color: #555;\n            line-height: 1.5;\n            font-weight: bold; /* Met tout le texte en gras */\n            font-family: 'Raleway', sans-serif;\n        }\n        .bold-text {\n            font-weight: 700;\n        }\n        @media (max-width: 768px) {\n            .stats-container {\n                gap: 10px;\n            }\n            .stat-box {\n                width: 45%; /* Les boîtes occupent moins d'espace pour rester côte à côte */\n                padding: 15px;\n            }\n            .stat-number {\n                font-size: 36px;\n            }\n            .stat-text {\n                font-size: 12px;\n            }\n        }\n        @media (max-width: 480px) {\n            .stat-box {\n                width: 48%; /* Ajustement pour très petits écrans */\n            }\n        }\n.stat-box {\n    background-color: #f3f3f3;\n    border-radius: 10px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n    padding: 20px;\n    width: 280px;\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center; /* Centrer les éléments horizontalement */\n    overflow: hidden;\n    height: 160px; /* Fixe une hauteur pour la boîte */\n}\n\n.stat-number {\n    font-size: 48px;\n    font-weight: 700;\n    color: #333;\n    margin-bottom: 15px;\n    display: flex; /* Utilise flexbox pour centrer le texte */\n    align-items: center; /* Centrer verticalement */\n    justify-content: center; /* Centrer horizontalement */\n    height: 50px; /* Garantir que le chiffre reste centré */\n}\n\n    </style>\n\n\n    <div class=\"header\">Meowtix™</div>\n    <div class=\"subheader\">Transformez votre quotidien avec Meowtix™</div>\n    <div class=\"divider\"></div>\n    \n    <div class=\"stats-container\">\n        <div class=\"stat-box\">\n            <div id=\"stat1\" class=\"stat-number\">0%</div>\n            <div class=\"stat-text\">\n                <span class=\"bold-text\"></span> de nos clients sont ravis par l’efficacité de notre rouleau, qui élimine les poils en un seul geste            </div>\n        </div>\n        <div class=\"stat-box\">\n            <div id=\"stat2\" class=\"stat-number\">0%</div>\n            <div class=\"stat-text\">\n                <span class=\"bold-text\"></span> de nos clients adorent sa simplicité et sa rapidité, parfait pour un entretien express, même lors des journées les plus chargées.\n            </div>\n        </div>\n    </div>\n\n    <script>\n        // Fonction pour animer les chiffres\n        function animateNumber(element, target, duration) {\n            let start = 0; // Début de l'animation\n            const stepTime = Math.abs(Math.floor(duration / target)); // Temps par incrément\n            const timer = setInterval(() => {\n                start++;\n                element.textContent = start + \"%\";\n                if (start === target) {\n                    clearInterval(timer); // Arrête l'animation\n                }\n            }, stepTime);\n        }\n\n        // Observer pour déclencher l'animation lorsque les stats sont visibles\n        const stats = document.querySelectorAll('.stat-box');\n        const observer = new IntersectionObserver((entries) => {\n            entries.forEach((entry) => {\n                if (entry.isIntersecting) {\n                    if (entry.target.querySelector('#stat1')) {\n                        animateNumber(document.getElementById('stat1'), 98, 2000); // 98% en 2 secondes\n                    }\n                    if (entry.target.querySelector('#stat2')) {\n                        animateNumber(document.getElementById('stat2'), 96, 2000); // 96% en 2 secondes\n                    }\n                    observer.unobserve(entry.target); // Empêche de ré-animer\n                }\n            });\n        });\n\n        stats.forEach((stat) => observer.observe(stat)); // Observe chaque rectangle\n    </script>",
+        "subheading": "",
+        "text_color": "rgba(0,0,0,0)",
+        "title": ""
+      },
+      "type": "custom-html"
+    },
+    "faq_FjwdyD": {
+      "block_order": [
+        "question_e6TGDB",
+        "question_VjqTxe",
+        "question_9eeeAr",
+        "question_TecHUq",
+        "question_zK38QY"
+      ],
+      "blocks": {
+        "question_9eeeAr": {
+          "settings": {
+            "answer": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>",
+            "title": "Proposez-vous des retours ou des échanges ?"
+          },
+          "type": "question"
+        },
+        "question_TecHUq": {
+          "settings": {
+            "answer": "<p>Les rouleaux jetables sont pratiques, mais ils sont non seulement mauvais pour l'environnement, mais aussi coûteux à long terme. Le rouleau réutilisable est une solution durable et économique, qui permet de dire adieu à l'achat constant de rouleaux jetables et de contribuer à la préservation de la planète.</p>",
+            "title": "Pourquoi devrais-je arrêter d'utiliser des rouleaux adhésifs jetables pour enlever les poils de mon animal ?"
+          },
+          "type": "question"
+        },
+        "question_VjqTxe": {
+          "settings": {
+            "answer": "<p>Oui,  l'équipe Meowtix™ vous offre la livraison partout en France.</p>",
+            "title": "La livraison est-elle gratuite ?"
+          },
+          "type": "question"
+        },
+        "question_e6TGDB": {
+          "settings": {
+            "answer": "<p>Chez Meowtix™ nous expédions vos colis en 24-48h. Si vous avez des questions, veuillez nous contacter directement.</p>",
+            "title": "Quel est le délai d'expédition des produits ?"
+          },
+          "type": "question"
+        },
+        "question_zK38QY": {
+          "settings": {
+            "answer": "<p>Oui, en utilisant le rouleau Meowtix™, vous réduisez vos dépenses en rouleaux jetables et autres produits de nettoyage. En plus, sa durabilité et son efficacité vous feront économiser de l'argent au fil du temps.</p>",
+            "title": "Est-ce que le rouleau est vraiment économique sur le long terme ?"
+          },
+          "type": "question"
+        }
+      },
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "content": "",
+        "show_navigation": false,
+        "text_color": "rgba(0,0,0,0)",
+        "title": "FAQ"
+      },
+      "type": "faq"
+    },
+    "featured_collections_n4EAFc": {
+      "block_order": [
+        "collection_FLGVc7"
+      ],
+      "blocks": {
+        "collection_FLGVc7": {
+          "settings": {
+            "button_text": "",
+            "button_url": "",
+            "collection": "nos-rouleaux",
+            "label": ""
+          },
+          "type": "collection"
+        }
+      },
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "show_cta": false,
+        "stack_products": true,
+        "subheading": "Une solution ultra-pratique pour éliminer les poils avec efficacité et douceur ! 🐾",
+        "text_color": "rgba(0,0,0,0)",
+        "title": "N°1 des Rouleaux Réutilisables"
+      },
+      "type": "featured-collections"
+    },
+    "otsb_faq_1_Ct8tF8": {
+      "block_order": [
+        "frequently_asked_question_JcAAcp",
+        "frequently_asked_question_Rg4f3J",
+        "frequently_asked_question_ypQkBg",
+        "frequently_asked_question_GGFJ6c",
+        "frequently_asked_question_rUx76c",
+        "frequently_asked_question_MRURnC",
+        "frequently_asked_question_z3W9Wn",
+        "frequently_asked_question_3cmXkB",
+        "frequently_asked_question_LHAnpa"
+      ],
+      "blocks": {
+        "frequently_asked_question_3cmXkB": {
+          "settings": {
+            "custom_icon": "",
+            "heading": "Proposez-vous des retours ou des échanges ?",
+            "icon": "none",
+            "row_content": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
+          },
+          "type": "frequently_asked_question"
+        },
+        "frequently_asked_question_GGFJ6c": {
+          "settings": {
+            "custom_icon": "",
+            "heading": "Est-ce facile à nettoyer ?",
+            "icon": "none",
+            "row_content": "<p>Oui, il suffit de le rincer sous l'eau pour enlever les poils accumulés. Il est conçu pour être utilisé encore et encore sans perdre de son efficacité.</p>"
+          },
+          "type": "frequently_asked_question"
+        },
+        "frequently_asked_question_JcAAcp": {
+          "settings": {
+            "custom_icon": "",
+            "heading": "Est-ce que le rouleau enlève vraiment tous les poils de mon canapé et de mes vêtements ?",
+            "icon": "none",
+            "row_content": "<p>Oui ! Grâce à ses fibres spéciales et son design efficace, ce nettoyeur capte et élimine les poils d'animaux en quelques gestes simples. Il est conçu pour être performant même sur les tissus les plus difficiles.</p>"
+          },
+          "type": "frequently_asked_question"
+        },
+        "frequently_asked_question_LHAnpa": {
+          "settings": {
+            "custom_icon": "",
+            "heading": "Frequently asked question",
+            "icon": "none",
+            "row_content": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          },
+          "type": "frequently_asked_question"
+        },
+        "frequently_asked_question_MRURnC": {
+          "settings": {
+            "custom_icon": "",
+            "heading": "Comment est-ce que ce produit est plus écologique que les rouleaux jetables ?",
+            "icon": "none",
+            "row_content": "<p>Le rouleau Meowtix™ ne nécessite aucun produit chimique ou consommable, ce qui le rend beaucoup plus respectueux de l'environnement. Vous évitez ainsi des déchets inutiles tout en profitant d'une efficacité durable.</p>"
+          },
+          "type": "frequently_asked_question"
+        },
+        "frequently_asked_question_Rg4f3J": {
+          "settings": {
+            "custom_icon": "",
+            "heading": "Puis-je l'utiliser sur tous les types de tissus (canapés, vêtements, tapis) ?",
+            "icon": "none",
+            "row_content": "<p>Absolument ! Le rouleau Meowtix™ fonctionne sur une large variété de surfaces, qu'il s'agisse de tissus délicats ou de matériaux plus épais comme les tapis. Il est doux mais puissant, ce qui le rend polyvalent pour tous vos besoins de nettoyage.</p>"
+          },
+          "type": "frequently_asked_question"
+        },
+        "frequently_asked_question_rUx76c": {
+          "settings": {
+            "custom_icon": "",
+            "heading": "Pourquoi devrais-je arrêter d'utiliser des rouleaux adhésifs jetables pour enlever les poils de mon animal ?",
+            "icon": "none",
+            "row_content": "<p>Les rouleaux jetables sont pratiques, mais ils sont non seulement mauvais pour l'environnement, mais aussi coûteux à long terme. Le rouleau réutilisable est une solution durable et économique, qui permet de dire adieu à l'achat constant de rouleaux jetables et de contribuer à la préservation de la planète.</p>"
+          },
+          "type": "frequently_asked_question"
+        },
+        "frequently_asked_question_ypQkBg": {
+          "settings": {
+            "custom_icon": "",
+            "heading": "Le rouleau est-il facile à transporter ?",
+            "icon": "none",
+            "row_content": "<p>Absolument ! Sa taille compacte le rend facile à glisser dans votre sac pour des retouches à tout moment.</p>"
+          },
+          "type": "frequently_asked_question"
+        },
+        "frequently_asked_question_z3W9Wn": {
+          "settings": {
+            "custom_icon": "",
+            "heading": "Est-ce que le rouleau est vraiment économique sur le long terme ?",
+            "icon": "none",
+            "row_content": "<p>Oui, en utilisant le rouleau Meowtix™, vous réduisez vos dépenses en rouleaux jetables et autres produits de nettoyage. En plus, sa durabilité et son efficacité vous feront économiser de l'argent au fil du temps.</p>"
+          },
+          "type": "frequently_asked_question"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "background_color_light": "rgba(0,0,0,0)",
+        "button_link": "",
+        "collapsible": true,
+        "color_heading": "#000000",
+        "color_line": "#f2f2f2",
+        "color_text": "#000000",
+        "color_text_link": "#fd8e16",
+        "desktop_height": "400px",
+        "desktop_layout": "1",
+        "edges_type": "square",
+        "heading": "QUESTIONS FRÉQUENTES",
+        "heading_alignment": "center",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "image_alignment": "left",
+        "image_alignment_mobile": "left",
+        "is_lazyload": false,
+        "make_full_page_width": false,
+        "mobile_height": "250px",
+        "open_new_window": false,
+        "padding_bottom": 28,
+        "padding_bottom_mobile": 28,
+        "padding_top": 28,
+        "padding_top_mobile": 28,
+        "row_background": false,
+        "show_section_divider": false,
+        "show_section_divider_mobile": false,
+        "show_view_all": false,
+        "view_all_position": "top"
+      },
+      "type": "otsb-faq-1"
+    },
+    "rich_text_EpMFPf": {
+      "settings": {
+        "background": "#ffffff",
+        "background_type": "full_width",
+        "button_background": "#d0e5d5",
+        "button_link": "shopify://collections/nos-rouleaux",
+        "button_text": "DÉCOUVRIR",
+        "button_text_color": "#000000",
+        "content": "<h1><strong>De nos clients en Europe</strong></h1><p>sont ravis par l’efficacité de nos rouleaux, qui élimine les poils en un seul geste. Leur expérience révèle une satisfaction exceptionnelle, avec une note de 98 % attribuée pour la simplicité et l'efficacité de nos rouleaux.</p>",
+        "subheading": "",
+        "text_alignment": "center",
+        "text_color": "rgba(0,0,0,0)",
+        "text_position": "center",
+        "text_width": "medium",
+        "title": "98%"
+      },
+      "type": "rich-text"
+    },
+    "rich_text_YVrH7f": {
+      "settings": {
+        "background": "#d0e5d5",
+        "background_type": "full_width",
+        "button_background": "rgba(0,0,0,0)",
+        "button_link": "",
+        "button_text": "",
+        "button_text_color": "rgba(0,0,0,0)",
+        "content": "<p><strong>un geste éco-responsable, une économie d'argent et une solution parfaite pour garder vos vêtements toujours propre.</strong></p>",
+        "subheading": "Meowtix™",
+        "text_alignment": "center",
+        "text_color": "rgba(0,0,0,0)",
+        "text_position": "center",
+        "text_width": "large",
+        "title": "Les rouleaux anti-poils réutilisables"
+      },
+      "type": "rich-text"
+    },
+    "slideshow": {
+      "block_order": [
+        "slide-1"
+      ],
+      "blocks": {
+        "slide-1": {
+          "settings": {
+            "button_1_link": "shopify://collections/nos-rouleaux",
+            "button_1_text": "découvrir",
+            "button_2_link": "",
+            "button_2_text": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "image": "shopify://shop_images/istockphoto-453143911-612x612.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 11,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "text_position": "top_center",
+            "title": "des câlins tout doux, sans poils partout !"
+          },
+          "type": "image"
+        }
+      },
+      "settings": {
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "cycle_speed": 5,
+        "section_height": "auto",
+        "transition_type": "sweep"
+      },
+      "type": "slideshow"
+    },
+    "slideshow_3Y7Leh": {
+      "settings": {
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "cycle_speed": 5,
+        "section_height": "auto",
+        "transition_type": "sweep"
+      },
+      "type": "slideshow"
+    },
+    "slideshow_gDR3ic": {
+      "block_order": [
+        "image_GW6wgi"
+      ],
+      "blocks": {
+        "image_GW6wgi": {
+          "settings": {
+            "button_1_link": "",
+            "button_1_text": "",
+            "button_2_link": "",
+            "button_2_text": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "image": "shopify://shop_images/light-20821-race-chien-pour-famille.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "subheading": "",
+            "text_color": "#ffffff",
+            "text_position": "middle_center",
+            "title": ""
+          },
+          "type": "image"
+        }
+      },
+      "settings": {
+        "autoplay": true,
+        "background": "rgba(0,0,0,0)",
+        "cycle_speed": 5,
+        "section_height": "auto",
+        "transition_type": "sweep"
+      },
+      "type": "slideshow"
+    },
+    "ss_wave_2_FGDCVm": {
+      "settings": {
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_thickness": 0,
+        "content_width": 120,
+        "full_width": true,
+        "margin_bottom": -4,
+        "margin_top": 100,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "padding_top": 0,
+        "wave_animation": true,
+        "wave_color": "#d0e5d5",
+        "wave_height": 66,
+        "wave_height_mobile": 30,
+        "wave_rotate": false
+      },
+      "type": "ss-wave-2"
+    },
+    "ss_wave_2_KQjH8R": {
+      "settings": {
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_thickness": 0,
+        "content_width": 120,
+        "full_width": true,
+        "margin_bottom": 0,
+        "margin_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "padding_top": 0,
+        "wave_animation": true,
+        "wave_color": "#cfe5d4",
+        "wave_height": 66,
+        "wave_height_mobile": 30,
+        "wave_rotate": true
+      },
+      "type": "ss-wave-2"
+    },
+    "ss_waves_9jMpQx": {
+      "settings": {
+        "animation": false,
+        "animation_duration": 5,
+        "background_color": "#ffffff",
+        "content_width": 120,
+        "full_width": true,
+        "margin_bottom": -196,
+        "margin_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "padding_top": 0,
+        "wave_color": "#d0e5d5",
+        "wave_curvature": 400,
+        "wave_height": 400,
+        "wave_side": "180",
+        "wave_style": "less"
+      },
+      "type": "ss-waves"
+    },
+    "ss_waves_KUFKd8": {
+      "settings": {
+        "animation": false,
+        "animation_duration": 5,
+        "background_color": "#ffffff",
+        "content_width": 120,
+        "full_width": true,
+        "margin_bottom": 0,
+        "margin_top": -120,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "padding_top": 0,
+        "wave_color": "#d0e5d5",
+        "wave_curvature": 400,
+        "wave_height": 400,
+        "wave_side": "0",
+        "wave_style": "less"
+      },
+      "type": "ss-waves"
+    }
+  }
+}
