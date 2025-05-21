@@ -91,6 +91,7 @@
         "text",
         "links"
       ],
+      "custom_css": [],
       "settings": {
         "show_payment_icons": true,
         "enable_follow_on_shop": false,
