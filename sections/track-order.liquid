@@ -10,6 +10,66 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  /* Track Order Section Styling */
+.track-order-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.track-order-form h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.track-order-form p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.field {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.field__input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.field__label {
+  position: absolute;
+  left: 1rem;
+  top: -0.75rem;
+  background: #fff;
+  padding: 0 0.25rem;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.contact__button input[type="button"] {
+  background-color: #c19a7d;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.contact__button input[type="button"]:hover {
+  background-color: #b2876b;
+}
+
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient content-for-grouping animate-section animate--hidden {{ section.settings.visibility }}">
