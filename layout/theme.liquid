@@ -171,30 +171,7 @@ src="https://ct.pinterest.com/v3/?tid=2613506523717&noscript=1" />
     {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
       {%- sections 'footer-group' -%}
     {%- endif -%}
-    <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('gp-product-button').forEach(button => {
-      button.addEventListener('click', function () {
-        const actionEffect = button.getAttribute('gp-data');
-        if (actionEffect && actionEffect.includes('"actionEffect":"open-cart-drawer"')) {
-          // Surveille le panier jusqu’à ce qu’il soit mis à jour
-          const observer = new MutationObserver(() => {
-            const drawer = document.querySelector('cart-drawer');
-            if (drawer) {
-              drawer.setAttribute('open', '');
-              observer.disconnect(); // évite d'ouvrir plusieurs fois
-            }
-          });
-
-          const cartForm = document.querySelector('form#mini-cart-form');
-          if (cartForm) {
-            observer.observe(cartForm, { childList: true, subtree: true });
-          }
-        }
-      });
-    });
-  });
-</script>
+ 
 
   </body>
 </html>
