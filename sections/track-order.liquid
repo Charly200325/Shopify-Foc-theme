@@ -16,6 +16,8 @@
   margin: 0 auto;
   text-align: center;
   padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .track-order-form h2 {
@@ -31,7 +33,6 @@
 }
 
 .field {
-  position: relative;
   margin-bottom: 1.5rem;
 }
 
@@ -45,13 +46,12 @@
 }
 
 .field__label {
-  position: absolute;
-  left: 1rem;
-  top: -0.75rem;
-  background: #fff;
-  padding: 0 0.25rem;
-  font-size: 0.85rem;
-  color: #888;
+  display: none; /* Masque le label redondant */
+}
+
+.contact__button {
+  display: flex;
+  justify-content: center;
 }
 
 .contact__button input[type="button"] {
@@ -62,12 +62,29 @@
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
+  max-width: 200px;
   width: 100%;
   transition: background-color 0.3s ease;
 }
 
 .contact__button input[type="button"]:hover {
   background-color: #b2876b;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .track-order-form h2 {
+    font-size: 1.5rem;
+  }
+
+  .track-order-form p {
+    font-size: 0.95rem;
+  }
+
+  .contact__button input[type="button"] {
+    padding: 0.65rem 1.5rem;
+    font-size: 0.95rem;
+  }
 }
 
 {%- endstyle -%}
