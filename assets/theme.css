@@ -12366,7 +12366,8 @@ shopify-payment-terms {
     scroll-snap-align: center;
   }
 }
-/* Conteneur global */
+/* ==== BARRE LIVRAISON GRATUITE CUSTOM ==== */
+
 .shipping-bar {
   background-color: #f5e2d0;
   border-radius: 12px;
@@ -12374,20 +12375,36 @@ shopify-payment-terms {
   margin: 12px 0;
   position: relative;
   text-align: center;
+  overflow: hidden;
 }
 
-/* Texte au-dessus de la barre */
 .shipping-bar__text {
   font-weight: bold;
   font-size: 14px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   display: block;
+  z-index: 2;
+  position: relative;
 }
 
-/* Barre de fond + remplissage */
+/* Fond neutre de la barre */
 .shipping-bar__progress {
-  display: block;
   height: 10px;
+  width: 100%;
+  background-color: #e0e0e0; /* couleur de fond neutre */
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Bande rayée animée */
+.shipping-bar__progress::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: calc(var(--progress) * 100%);
+  left: 0;
+  top: 0;
   border-radius: 20px;
   background: repeating-linear-gradient(
     45deg,
@@ -12396,15 +12413,15 @@ shopify-payment-terms {
     #e6c6b2 10px,
     #e6c6b2 20px
   );
-  width: calc(var(--progress) * 100%);
-  transition: width 0.3s ease-in-out;
+  transition: width 0.4s ease;
+  z-index: 1;
 }
 
-/* Ajout icône camion à droite */
+/* Icone camion */
 .shipping-bar::after {
   content: "🚚";
   position: absolute;
-  right: 10px;
+  right: 12px;
   top: 10px;
   background: #fff;
   border: 2px solid #c49b79;
@@ -12412,5 +12429,6 @@ shopify-payment-terms {
   padding: 4px;
   font-size: 12px;
   line-height: 1;
+  z-index: 3;
 }
 
