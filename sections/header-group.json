@@ -14,33 +14,11 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_fE4467": {
-          "type": "message",
-          "settings": {
-            "text": "• Livraison Gratuite • ",
-            "learn_more_text": "Learn more",
-            "title": "",
-            "content": "",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "message_B9iftf": {
-          "type": "message",
-          "settings": {
-            "text": "• Paiement 100% Sécurisé • ",
-            "learn_more_text": "",
-            "title": "",
-            "content": "",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
         "message_RkEmz4": {
           "type": "message",
           "settings": {
-            "text": "• Retour Gratuit •",
-            "learn_more_text": "Learn more",
+            "text": "FREE SHIPPING | ORDERS £29+",
+            "learn_more_text": "",
             "title": "",
             "content": "",
             "button_text": "",
@@ -51,7 +29,7 @@
           "type": "message",
           "disabled": true,
           "settings": {
-            "text": "Profitez de -10% sur votre première commande en vous inscrivant à notre newsletter !",
+            "text": "SUMMER SALE : BUY 1 GET 1 FREE!",
             "learn_more_text": "",
             "title": "",
             "content": "",
@@ -61,8 +39,6 @@
         }
       },
       "block_order": [
-        "message_fE4467",
-        "message_B9iftf",
         "message_RkEmz4",
         "message_iQjayH"
       ],
@@ -71,9 +47,9 @@
         "announcement_text_size": "normal",
         "autoplay": true,
         "cycle_speed": 3,
-        "background": "#d0e5d5",
-        "text_color": "#56112a",
-        "button_background": "#56112a",
+        "background": "#c39f83",
+        "text_color": "#fdf2e8",
+        "button_background": "#fdf2e8",
         "button_text_color": "#ffffff"
       }
     },
