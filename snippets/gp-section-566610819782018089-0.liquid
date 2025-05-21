@@ -1025,7 +1025,7 @@ font-family: "Hanken Grotesk" !important;
       "errorTypo": { "attrs": { "color": "error" }, "type": "paragraph-2" },
       "successTypo": { "attrs": { "color": "success" }, "type": "paragraph-2" }
     },
-    "disabled": "true",
+    "disabled": "false",
     "variantID": "46347707842777",
     "totalVariant": "6"
   }'
@@ -1033,17 +1033,65 @@ font-family: "Hanken Grotesk" !important;
 </gp-product-button>
 
 <script>
-document.addEventListener('gp:product:added', function () {
-  const drawer = document.querySelector('#mini-cart');
-  if (drawer) {
-    drawer.setAttribute('open', '');
-  }
-});
+// Attente que le DOM soit prêt
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.querySelector('.gp-product-button button[type="submit"]');
+  if (!btn) return;
 
-document.querySelector('#mini-cart .drawer__close-button').addEventListener('click', () => {
-  const drawer = document.querySelector('#mini-cart');
-  if (drawer) {
-    drawer.removeAttribute('open');
+  btn.addEventListener('click', (event) => {
+    event.preventDefault(); // Empêche la soumission et redirection
+
+    const gpProductButton = btn.closest('gp-product-button');
+    if (!gpProductButton) return;
+
+    let gpDataStr = gpProductButton.getAttribute('gp-data');
+    if (!gpDataStr) return;
+
+    try {
+      // Remplacer les entités HTML pour JSON valide
+      gpDataStr = gpDataStr.replace(/&quot;/g, '"');
+      const gpData = JSON.parse(gpDataStr);
+
+      const variantID = gpData.variantID;
+      if (!variantID) {
+        alert('Please select a variant.');
+        return;
+      }
+
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: variantID, quantity: 1 })
+      })
+      .then(response => {
+        if (!response.ok) throw new Error('Failed to add product to cart');
+        return response.json();
+      })
+      .then(() => {
+        // Ouvre le mini-cart / drawer
+        const drawer = document.querySelector('#mini-cart');
+        if (drawer) {
+          drawer.setAttribute('open', '');
+        }
+      })
+      .catch(() => {
+        alert('Error adding product to cart');
+      });
+
+    } catch (e) {
+      console.error('Error parsing gp-data', e);
+    }
+  });
+
+  // Gestion du bouton de fermeture du drawer
+  const closeBtn = document.querySelector('#mini-cart .drawer__close-button');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      const drawer = document.querySelector('#mini-cart');
+      if (drawer) {
+        drawer.removeAttribute('open');
+      }
+    });
   }
 });
 </script>
