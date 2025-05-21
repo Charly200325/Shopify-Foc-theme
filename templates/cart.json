@@ -42,8 +42,9 @@
     },
     "cart-recommendations": {
       "type": "cart-recommendations",
+      "disabled": true,
       "settings": {
-        "title": "Vous pourriez aimer"
+        "title": ""
       }
     }
   },
