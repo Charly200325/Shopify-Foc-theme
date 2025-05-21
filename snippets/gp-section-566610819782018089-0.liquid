@@ -1034,13 +1034,15 @@ font-family: "Hanken Grotesk" !important;
 
 <script>
 document.addEventListener('gp:product:added', function () {
-  const drawer = document.querySelector('cart-drawer');
-  if (drawer) {
-    drawer.open = true; // au lieu d'attribut, si c'est une propriété
-  }
-  // Si Shopify.openCartDrawer existe, on l'appelle aussi
-  if (window.Shopify && typeof Shopify.openCartDrawer === 'function') {
-    Shopify.openCartDrawer();
+  // Exemple d'ouverture du drawer dans Focal
+  if (window.theme && window.theme.cartDrawer && typeof window.theme.cartDrawer.open === 'function') {
+    window.theme.cartDrawer.open();
+  } else {
+    // Fallback : essayer de trouver manuellement et ajouter une classe d'ouverture
+    const drawer = document.querySelector('#CartDrawer, .cart-drawer');
+    if (drawer) {
+      drawer.classList.add('is-open'); // ou autre classe utilisée par Focal
+    }
   }
 });
 
