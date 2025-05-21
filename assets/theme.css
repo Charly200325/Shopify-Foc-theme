@@ -12366,3 +12366,51 @@ shopify-payment-terms {
     scroll-snap-align: center;
   }
 }
+/* Conteneur global */
+.shipping-bar {
+  background-color: #f5e2d0;
+  border-radius: 12px;
+  padding: 8px 12px;
+  margin: 12px 0;
+  position: relative;
+  text-align: center;
+}
+
+/* Texte au-dessus de la barre */
+.shipping-bar__text {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+/* Barre de fond + remplissage */
+.shipping-bar__progress {
+  display: block;
+  height: 10px;
+  border-radius: 20px;
+  background: repeating-linear-gradient(
+    45deg,
+    #c49b79,
+    #c49b79 10px,
+    #e6c6b2 10px,
+    #e6c6b2 20px
+  );
+  width: calc(var(--progress) * 100%);
+  transition: width 0.3s ease-in-out;
+}
+
+/* Ajout icône camion à droite */
+.shipping-bar::after {
+  content: "🚚";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #fff;
+  border: 2px solid #c49b79;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 12px;
+  line-height: 1;
+}
+
