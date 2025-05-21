@@ -23,7 +23,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "heading": "Track Order",
+        "heading": "TRACK YOUR ORDER",
         "text": "<p></p><p>Enter your tracking number from the confirmation email to see your delivery status.</p><p></p>",
         "heading_size": "h2",
         "button_label": "TRACK",
