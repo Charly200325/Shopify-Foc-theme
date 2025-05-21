@@ -1014,59 +1014,6 @@ font-family: "Hanken Grotesk" !important;
   data-variant-selection-required-message="Please select a variant to add product to cart">
 </gp-product-button>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const gpButton = document.querySelector('gp-product-button');
-
-  if (!gpButton) {
-    console.warn('Bouton gp-product-button non trouvé');
-    return;
-  }
-
-  gpButton.addEventListener('click', function(event) {
-    event.preventDefault();
-
-    let gpData;
-    try {
-      gpData = JSON.parse(gpButton.getAttribute('gp-data').replace(/&quot;/g,'"'));
-    } catch(e) {
-      console.error('Erreur parse gp-data', e);
-      return;
-    }
-
-    const variantId = gpData.variantID || gpData.setting?.variantID;
-    if (!variantId) {
-      console.error('variantID introuvable dans gp-data');
-      return;
-    }
-
-    fetch('/cart/add.js', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({id: variantId, quantity: 1})
-    })
-    .then(response => {
-      if (!response.ok) throw new Error('Erreur ajout panier');
-      return response.json();
-    })
-    .then(data => {
-      console.log('Produit ajouté au panier', data);
-
-      // Ouvre le drawer en ajoutant l'attribut open
-      const drawer = document.querySelector('cart-drawer#mini-cart');
-      if (drawer) {
-        drawer.setAttribute('open', '');
-      } else {
-        console.warn('Drawer non trouvé');
-      }
-    })
-    .catch(error => {
-      console.error('Erreur ajout panier:', error);
-      alert('Impossible d’ajouter au panier');
-    });
-  });
-});
-</script>
 
 
 
