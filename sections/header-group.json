@@ -81,7 +81,7 @@
       "type": "header",
       "settings": {
         "enable_sticky_header": false,
-        "logo": "shopify://shop_images/MEOWTIX__2_-removebg-preview.png",
+        "logo": "shopify://shop_images/Design_sans_titre_49.png",
         "logo_max_width": 120,
         "mobile_logo_max_width": 100,
         "navigation_menu": "menu-principal",
@@ -93,7 +93,6 @@
         "show_country_selector": false,
         "enable_transparent_header": true,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/MEOWTIX__2_-removebg-preview.png",
         "search_menu": ""
       }
     }
