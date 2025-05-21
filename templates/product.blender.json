@@ -98,6 +98,7 @@
         "liquid_JAVizC",
         "liquid_9cEAjG"
       ],
+      "disabled": true,
       "settings": {
         "show_vendor": false,
         "show_sku": false,
@@ -369,7 +370,6 @@
     },
     "gp_shopify_original_section_566610819782018089": {
       "type": "gp-section-566610819782018089",
-      "disabled": true,
       "settings": {
         "section_preload": "true",
         "checksum": ""
