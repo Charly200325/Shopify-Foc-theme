@@ -45,7 +45,7 @@
     "cart_type": "drawer",
     "cart_icon": "shopping_bag",
     "cart_show_free_shipping_threshold": true,
-    "cart_free_shipping_threshold": "0",
+    "cart_free_shipping_threshold": "29",
     "accent_color": "#405de6",
     "checkout_accent_color": "#282828",
     "checkout_button_color": "#405de6",

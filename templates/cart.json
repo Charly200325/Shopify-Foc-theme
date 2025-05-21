@@ -12,24 +12,30 @@
     "main": {
       "type": "main-cart",
       "blocks": {
+        "express_checkout_buttons_fUbm3Y": {
+          "type": "express_checkout_buttons",
+          "settings": {}
+        },
         "totals": {
           "type": "totals",
           "settings": {}
         },
         "order_note": {
           "type": "order_note",
+          "disabled": true,
           "settings": {
             "open_by_default": false
           }
         }
       },
       "block_order": [
+        "express_checkout_buttons_fUbm3Y",
         "totals",
         "order_note"
       ],
       "settings": {
         "show_payment_methods": true,
-        "show_shipping_estimator": true,
+        "show_shipping_estimator": false,
         "shipping_estimator_default_country": "Royaume-Uni",
         "empty_button_link": "shopify://collections/all"
       }
