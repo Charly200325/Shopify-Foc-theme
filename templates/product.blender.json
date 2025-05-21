@@ -42,12 +42,11 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "#a463ff",
-            "atc_button_text_color": "#ffffff",
+            "atc_button_background": "#c39f83",
+            "atc_button_text_color": "#fdf2e8",
             "buy_now_button_background": "#f7aea6",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
@@ -82,7 +81,6 @@
         },
         "liquid_9cEAjG": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "liquid": ""
           }
