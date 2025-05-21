@@ -11,8 +11,8 @@
   "current": {
     "button_border_radius": 0,
     "block_border_radius": "none",
-    "heading_color": "#282828",
-    "text_color": "#282828",
+    "heading_color": "#c39f83",
+    "text_color": "#000000",
     "secondary_background": "#f5f5f5",
     "success_color": "#2e9e7b",
     "error_color": "#de2a2a",
