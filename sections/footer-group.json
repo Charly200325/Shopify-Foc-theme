@@ -68,8 +68,8 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "title": "S'inscrire pour bénéficier de 10% de réduction 🤍",
-            "content": "<p>Recevez également toutes les nouveautés en avant-première. Bienvenue dans la communauté Meowtix<em>™</em> !</p>"
+            "title": "Join the Elvynor Community",
+            "content": "<p>Get exclusive access to our new collections, special discounts and more.</p>"
           }
         },
         "text": {
@@ -82,21 +82,14 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "menu-principal"
-          }
-        },
-        "links_hBkwNR": {
-          "type": "links",
-          "settings": {
-            "menu": "footer"
+            "menu": "menu-pied-de-page"
           }
         }
       },
       "block_order": [
         "newsletter",
         "text",
-        "links",
-        "links_hBkwNR"
+        "links"
       ],
       "settings": {
         "show_payment_icons": true,
