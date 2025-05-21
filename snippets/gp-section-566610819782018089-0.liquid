@@ -1033,17 +1033,17 @@ font-family: "Hanken Grotesk" !important;
 </gp-product-button>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.addEventListener('gp:product:added', function () {
-      const drawer = document.querySelector('cart-drawer');
-      if (drawer) {
-        drawer.setAttribute('open', '');
-      }
-      if (typeof Shopify !== 'undefined' && typeof Shopify.openCartDrawer === 'function') {
-        Shopify.openCartDrawer();
-      }
-    });
-  });
+document.addEventListener('gp:product:added', function () {
+  const drawer = document.querySelector('cart-drawer');
+  if (drawer) {
+    drawer.open = true; // au lieu d'attribut, si c'est une propriété
+  }
+  // Si Shopify.openCartDrawer existe, on l'appelle aussi
+  if (window.Shopify && typeof Shopify.openCartDrawer === 'function') {
+    Shopify.openCartDrawer();
+  }
+});
+
 </script>
 
 
