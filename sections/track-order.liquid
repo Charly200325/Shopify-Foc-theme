@@ -55,37 +55,33 @@
 }
 
 .contact__button input[type="button"] {
-  background-color: #c19a7d;
+  background-color: #c19a7d; /* couleur beige/marron doux */
   color: white;
   border: none;
-  padding: 0.75rem 2rem;
+  padding: 0.5rem 1rem; /* plus fin en hauteur */
   border-radius: 6px;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
-  max-width: 200px;
-  width: 100%;
+  width: 100%; /* prend toute la largeur du parent */
+  max-width: 500px; /* limite maximale comme sur ta capture */
+  font-size: 1rem;
   transition: background-color 0.3s ease;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .contact__button input[type="button"]:hover {
   background-color: #b2876b;
 }
 
-/* Responsive design */
+/* Responsive */
 @media (max-width: 600px) {
-  .track-order-form h2 {
-    font-size: 1.5rem;
-  }
-
-  .track-order-form p {
-    font-size: 0.95rem;
-  }
-
   .contact__button input[type="button"] {
-    padding: 0.65rem 1.5rem;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    padding: 0.45rem 0.8rem;
   }
 }
+
 
 {%- endstyle -%}
 
