@@ -59,7 +59,7 @@
           "show_checkout_button": true,
           "empty_button_link": "shopify://collections/all",
           "show_recommendations": true,
-          "recommendations_title": "Vous pourriez aimer"
+          "recommendations_title": "YOU MAY ALSO LIKE"
         }
       }
     },
