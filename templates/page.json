@@ -24,7 +24,7 @@
         "display_id": false,
         "visibility": "always-display",
         "heading": "Track Order",
-        "text": "<p>Please enter you tracking number below. if your tracking number doesn't work feel free to contact us at [shop email]</p>",
+        "text": "<p></p><p>Enter your tracking number from the confirmation email to see your delivery status.</p><p></p>",
         "heading_size": "h2",
         "button_label": "TRACK",
         "button_full_width": true,
