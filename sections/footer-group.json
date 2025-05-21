@@ -28,8 +28,8 @@
           "settings": {
             "icon": "picto-return-box",
             "custom_icon_width": 50,
-            "title": "Retour Gratuit",
-            "content": "<p>Achetez en toute sérénité : retour facile et gratuit sous 30 jours.</p>"
+            "title": "Free Returns",
+            "content": "<p>Shop with confidence: easy and free returns within 30 days.</p>"
           }
         },
         "item-4": {
@@ -37,8 +37,8 @@
           "settings": {
             "icon": "picto-worldwide",
             "custom_icon_width": 50,
-            "title": "Cruetly FREE",
-            "content": "<p>Notre marque s'engage à prendre soin des animaux et de la planète.</p>"
+            "title": "Cruelty-Free",
+            "content": "<p>Our brand is committed to caring for animals and the planet.</p>"
           }
         },
         "item-3": {
@@ -46,8 +46,8 @@
           "settings": {
             "icon": "picto-lock",
             "custom_icon_width": 50,
-            "title": "Paiements sécurisés",
-            "content": "<p>Faites vos achats en toute confiance grâce à notre système de paiements sécurisé.</p>"
+            "title": "Secure Payments",
+            "content": "<p>Shop with confidence thanks to our secure payment system.</p>"
           }
         }
       },
