@@ -19,7 +19,6 @@
         "show_only_on_index": true,
         "show_only_for_visitors": true,
         "show_only_once": true,
-        "image": "shopify://shop_images/istockphoto-2171953488-612x612.jpg",
         "image_position": "right",
         "title": "S'inscrire pour bénéficier de 10% de réduction sur votre première commande !",
         "content": ""
@@ -27,6 +26,7 @@
     },
     "privacy-banner": {
       "type": "privacy-banner",
+      "disabled": true,
       "settings": {
         "cookie_bar_title": "Nous accordons une grande importance à votre vie privée",
         "cookie_bar_content": "<p>Nous utilisons des cookies et d’autres technologies pour personnaliser votre expérience, à des fins commerciales et d’analyses. Pour en savoir plus, consultez notre  <a href=\"https://meowtix.com/policies/privacy-policy\" target=\"_blank\">politique de confidentialité.</a></p>"

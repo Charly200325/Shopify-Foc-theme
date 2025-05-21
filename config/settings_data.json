@@ -43,6 +43,7 @@
     "product_color_display": "count",
     "product_image_size": "natural",
     "cart_type": "drawer",
+    "cart_icon": "shopping_bag",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "0",
     "accent_color": "#405de6",
@@ -54,7 +55,7 @@
       "mini-cart": {
         "type": "mini-cart",
         "settings": {
-          "show_order_note": true,
+          "show_order_note": false,
           "show_checkout_button": true,
           "empty_button_link": "shopify://collections/all",
           "show_recommendations": true,
